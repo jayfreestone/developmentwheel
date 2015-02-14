@@ -1,0 +1,14 @@
+#chart {
+  /* background: grey; */
+}
+
+svg {
+  width: 800px;
+  height: 500px;
+}
+
+.tooltip {
+  color: white;
+  position: absolute;
+  padding: 10px 30px;
+}
