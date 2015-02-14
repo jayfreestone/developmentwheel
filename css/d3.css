@@ -1,14 +1,86 @@
-#chart {
-  /* background: grey; */
+* {
+  box-sizing: border-box;
 }
 
-svg {
-  width: 800px;
-  height: 500px;
+.container {
+  padding: 5em;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+#chart {
+  width: 100%;
+  max-width: 500px;
+  /* margin: 0 auto; */
+  float:left;
+}
+
+.legend {
+  float: right;
+  margin-left: 4em;
+  font-size: 1em;
+}
+
+.legend ol {
+  font-size: 3em;
+  font-weight: bold;
+  counter-reset: item;
+  list-style-type: none;
+  color: #14537C;
+  margin-top: 0;
+}
+
+.legend li {
+  margin-bottom: .5em;
+}
+
+.legend li:before {
+  content: counter(item) " ";
+  counter-increment: item;
+}
+
+.list-item {
+  font-size: .8rem;
+  font-weight: normal;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.list-item h4, .list-item p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.list-item h4 {
+  color: #40A2C7;
+}
+
+
+svg {
+}
+
 
 .tooltip {
   color: white;
-  position: absolute;
   padding: 10px 30px;
+  float:left;
+  margin-top: 2em;
+}
+
+path {
+  cursor: pointer;
+}
+
+.selected {
+  fill: red !important;
+}
+
+.rating-tooltip {
+  position: absolute;
+  background-color: #96C9EB;
+  padding: 40px 60px;
+  display: none;
+}
+
+form {
+  visibility: hidden;
 }
