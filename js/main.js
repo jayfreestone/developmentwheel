@@ -72,11 +72,13 @@ document.addEventListener('DOMContentLoaded', function(){
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 600")
     .append('g')
+
     .selectAll('path').data(areas)
       .enter().append('g')
       .attr('class', function(d){
         return nameToClass(d);
       })
+
 
   pathGroup.on('mouseover', function(d){
     // d3.select(this).attr('transform', 'translate(-100,-100)')
@@ -90,6 +92,7 @@ document.addEventListener('DOMContentLoaded', function(){
     this.classList.add('group--selected');
   })
 
+
   var listItems = document.querySelectorAll('.legend li');
   for(var x = 1; x < 6; x ++){
     pathGroup.append('path')
@@ -99,7 +102,6 @@ document.addEventListener('DOMContentLoaded', function(){
         return d.colors[x-1];
       })
       .attr('transform', function(d, i){
-        // return  'translate(300, 300) ' + 'rotate(' + (i * 72) + ') ' + 'scale('+ x +', '+ x +')';
         return  'translate(300, 300) ' + 'rotate(' + (i * 72) + ') ';
       })
       .on('mouseover', function(d){
@@ -119,5 +121,17 @@ document.addEventListener('DOMContentLoaded', function(){
         document.getElementsByName(nameToClass(d)+'__text')[this.classList -1 ].checked = true;
         d3.select(this).classed('selected', true);
       })
+
+      .attr('opacity', 0)
+      .transition()
+      .delay(function(d, i){
+        return i * 50;
+      })
+      .duration(100)
+      .attr('opacity', 1)
   }
+
+
 });
+
+

@@ -1,9 +1,39 @@
+@-webkit-keyframes rotateIn {
+  from {
+    -webkit-transform: rotate(-300deg);
+    -ms-transform: rotate(-300deg);
+    transform: rotate(-300deg);
+    opacity: 0;
+
+  }
+  to {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(o);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@font-face {
+    font-family: 'desyrelregular';
+    src: url('../fonts/desyrel-webfont.eot');
+    src: url('../fonts/desyrel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/desyrel-webfont.woff') format('woff'),
+         url('../fonts/desyrel-webfont.ttf') format('truetype'),
+         url('../fonts/desyrel-webfont.svg#desyrelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
 
 h1 {
   text-align: center;
+  color: #83c50b;
+  font-size: 3em;
+  /* font-family: 'desyrelregular'; */
 }
 
 .container {
@@ -26,12 +56,13 @@ path {
   opacity: 1 !important;
 }
 
+
 #chart {
+  -webkit-animation: rotateIn 1s forwards;
+  animation: rotateIn 1s forwards;
   width: 100%;
   max-width: 500px;
-  /* margin: 0 auto; */
   float:left;
-  /* cursor: pointer; */
 }
 
 .legend {
@@ -74,13 +105,14 @@ path {
   color: #40A2C7;
 }
 
+
 .tooltip {
-  transition: all .5s;
+  /* transition: all .5s; */
   border-radius: 5px;
   color: white;
   padding: 10px 30px;
   margin-top: 2em;
-  background:grey;
+  background:#1AA1DF;
   float:left;
   width: 40%;
   float: right;
