@@ -2,22 +2,41 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
-  padding: 5em;
+  padding: 1em 5em;
   max-width: 1200px;
   margin: 0 auto;
 }
+
+path {
+  stroke: white;
+  stroke-width: 5px;
+  transition: all .5s;
+}
+
+.group--selected path{
+  opacity: 0.2 !important;
+}
+
+.group--selected .selected {
+  opacity: 1 !important;
+}
+
 #chart {
   width: 100%;
   max-width: 500px;
   /* margin: 0 auto; */
   float:left;
+  /* cursor: pointer; */
 }
 
 .legend {
-  float: right;
-  margin-left: 4em;
   font-size: 1em;
+  float: left;
 }
 
 .legend ol {
@@ -26,11 +45,12 @@
   counter-reset: item;
   list-style-type: none;
   color: #14537C;
-  margin-top: 0;
 }
 
 .legend li {
   margin-bottom: .5em;
+  display: inline-block;
+  transition: all .5s;
 }
 
 .legend li:before {
@@ -54,32 +74,23 @@
   color: #40A2C7;
 }
 
-
-svg {
-}
-
-
 .tooltip {
+  transition: all .5s;
+  border-radius: 5px;
   color: white;
   padding: 10px 30px;
-  float:left;
   margin-top: 2em;
+  background:grey;
+  float:left;
+  width: 40%;
+  float: right;
 }
 
 path {
   cursor: pointer;
 }
 
-.selected {
-  fill: red !important;
-}
 
-.rating-tooltip {
-  position: absolute;
-  background-color: #96C9EB;
-  padding: 40px 60px;
-  display: none;
-}
 
 form {
   visibility: hidden;
