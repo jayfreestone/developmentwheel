@@ -82,9 +82,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
   pathGroup.on('mouseover', function(d){
     // d3.select(this).attr('transform', 'translate(-100,-100)')
-    d3.selectAll('path').style('opacity', '.5')
+    d3.selectAll('path').style('opacity', '.2')
     d3.select(this).selectAll('path').style('opacity', '1')
-    tooltip.style('background', d.colors[2])
+    tooltip.style('background', 'linear-gradient('+ d.colors[2] +', ' + d.colors[3] +')')
+    tooltip.style('border', '1px solid' + d.colors[3])
     tooltip.html('<h3>' + d.name + '</h3>' + '<p>' + d.tooltext + '</p>');
   }).on('mouseout', function(){
     d3.selectAll('path').style('opacity', '1')
@@ -106,11 +107,12 @@ document.addEventListener('DOMContentLoaded', function(){
       })
       .on('mouseover', function(d){
         for(var c = 0; c < listItems.length; c++){
-          listItems[c].style.opacity = 0.3;
+          listItems[c].style.opacity = 0.2;
         }
         listItems[this.classList - 1].style.opacity = 1;
       })
       .on('mouseout', function(d){
+        // d3.select(this).style('stroke', 'white')
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 1;
         }
@@ -119,6 +121,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var name = '.' + nameToClass(d) + ' .selected';
         pathGroup.selectAll(name).classed('selected', false)
         document.getElementsByName(nameToClass(d)+'__text')[this.classList -1 ].checked = true;
+        document.getElementsByName(nameToClass(d)+'__dd').innerHTML ="cake";
+        d3.select('.' + nameToClass(d)+'__dd').html(this.classList + '/5');
         d3.select(this).classed('selected', true);
       })
 
@@ -130,6 +134,33 @@ document.addEventListener('DOMContentLoaded', function(){
       .duration(100)
       .attr('opacity', 1)
   }
+
+
+  var formOverlay = document.querySelector('.form-overlay');
+
+  d3.select('#chart').append('button').classed('button--hl', true).html('Finish').on('click', function(){
+      formOverlay.classList.add('visible');
+  });
+
+  var hideModal = function(){
+    this.classList.remove('visible');
+    document.querySelector('#chart button').style.display = 'block';
+  };
+
+  formOverlay.onclick = hideModal;
+
+  document.querySelector('.button-return').onclick = function(event){
+    event.preventDefault();
+    hideModal;
+  };
+
+  var hasAppeared;
+  document.querySelector('#chart').onclick = function(){
+    if (document.querySelectorAll('.group--selected').length === areas.length && hasAppeared !== true){
+      hasAppeared = true;
+      formOverlay.classList.add('visible');
+    }
+  };
 
 
 });

@@ -16,20 +16,13 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container cf">
       <header>
         <img class="logo" src="img/logo.png" alt="">
       </header>
 
       <h1>Development Wheel</h1>
-
-      <section id="chart">
-
-      </section>
-
-      <aside class="explanation">
-      </aside>
-
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
       <aside class="legend">
         <ol>
           <li>
@@ -65,45 +58,73 @@
         </ol>
       </aside>
 
-      <form action="">
-        <h4>The Hidden Form</h4>
-        <label for="risk-management-input">Risk Management</label>
-        <input id="risk-management-input" type="radio" name="risk-management__text" value="1">
-        <input type="radio" name="risk-management__text" value="2">
-        <input type="radio" name="risk-management__text" value="3">
-        <input type="radio" name="risk-management__text" value="4">
-        <input type="radio" name="risk-management__text" value="5">
+      <section id="chart">
 
-        <label for="collaboration-input">Collaboration</label>
-        <input id="collaboration-input" type="radio" name="collaboration__text" value="1">
-        <input type="radio" name="collaboration__text" value="2">
-        <input type="radio" name="collaboration__text" value="3">
-        <input type="radio" name="collaboration__text" value="4">
-        <input type="radio" name="collaboration__text" value="5">
+      </section>
 
-        <label for="client-management-input">Client Management</label>
-        <input id="client-management-input" type="radio" name="client-management__text" value="1">
-        <input type="radio" name="client-management__text" value="2">
-        <input type="radio" name="client-management__text" value="3">
-        <input type="radio" name="client-management__text" value="4">
-        <input type="radio" name="client-management__text" value="5">
+      <aside class="explanation">
+      </aside>
 
-        <label for="personal-effectiveness-input">Personal Effectiveness</label>
-        <input id="personal-effectiveness-input" type="radio" name="personal-effectiveness__text" value="1">
-        <input type="radio" name="personal-effectiveness__text" value="2">
-        <input type="radio" name="personal-effectiveness__text" value="3">
-        <input type="radio" name="personal-effectiveness__text" value="4">
-        <input type="radio" name="personal-effectiveness__text" value="5">
 
-        <label for="finance-management-input">Finance Management</label>
-        <input id="finance-management-input" type="radio" name="finance-management__text" value="1">
-        <input type="radio" name="finance-management__text" value="2">
-        <input type="radio" name="finance-management__text" value="3">
-        <input type="radio" name="finance-management__text" value="4">
-        <input type="radio" name="finance-management__text" value="5">
-
-        <button type="submit">Submit</button>
-      </form>
+      <div class="form-overlay">
+      	<form action="">
+          <div class="form-overlay__modal cf">
+            <h2>Your Answers</h2>
+            <dl>
+            	<dt>Risk Management:</dt>
+              <dd class="risk-management__dd"></dd>
+            	<dt>Collaboration:</dt>
+              <dd class="collaboration__dd"></dd>
+            	<dt>Client Management:</dt>
+              <dd class="client-management__dd"></dd>
+            	<dt>Personal Effectiveness:</dt>
+              <dd class="personal-effectiveness__dd"></dd>
+              <dt>Finance Management:</dt>
+              <dd class="finance-management__dd"></dd>
+            </dl>
+              
+      	  <div class="form-overlay__inputs">
+      	  	<label for="risk-management-input">Risk Management</label>
+      	  	<input id="risk-management-input" type="radio" name="risk-management__text" value="1">
+      	  	<input type="radio" name="risk-management__text" value="2">
+      	  	<input type="radio" name="risk-management__text" value="3">
+      	  	<input type="radio" name="risk-management__text" value="4">
+      	  	<input type="radio" name="risk-management__text" value="5">
+      	  	
+      	  	<label for="collaboration-input">Collaboration</label>
+      	  	<input id="collaboration-input" type="radio" name="collaboration__text" value="1">
+      	  	<input type="radio" name="collaboration__text" value="2">
+      	  	<input type="radio" name="collaboration__text" value="3">
+      	  	<input type="radio" name="collaboration__text" value="4">
+      	  	<input type="radio" name="collaboration__text" value="5">
+      	  	
+      	  	<label for="client-management-input">Client Management</label>
+      	  	<input id="client-management-input" type="radio" name="client-management__text" value="1">
+      	  	<input type="radio" name="client-management__text" value="2">
+      	  	<input type="radio" name="client-management__text" value="3">
+      	  	<input type="radio" name="client-management__text" value="4">
+      	  	<input type="radio" name="client-management__text" value="5">
+      	  	
+      	  	<label for="personal-effectiveness-input">Personal Effectiveness</label>
+      	  	<input id="personal-effectiveness-input" type="radio" name="personal-effectiveness__text" value="1">
+      	  	<input type="radio" name="personal-effectiveness__text" value="2">
+      	  	<input type="radio" name="personal-effectiveness__text" value="3">
+      	  	<input type="radio" name="personal-effectiveness__text" value="4">
+      	  	<input type="radio" name="personal-effectiveness__text" value="5">
+      	  	
+      	  	<label for="finance-management-input">Finance Management</label>
+      	  	<input id="finance-management-input" type="radio" name="finance-management__text" value="1">
+      	  	<input type="radio" name="finance-management__text" value="2">
+      	  	<input type="radio" name="finance-management__text" value="3">
+      	  	<input type="radio" name="finance-management__text" value="4">
+      	  	<input type="radio" name="finance-management__text" value="5">
+      	  </div>
+      	
+      	  <button class="button--hl" type="submit">Submit</button>
+          <button class="button-return">Return</button>
+          </div>
+      	</form>
+      </div>
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
