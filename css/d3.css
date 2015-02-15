@@ -150,7 +150,10 @@ path {
   padding: 2em 3em;
   background: white;
   max-width: 35em;
-  margin: 10em auto;
+  margin: 0 auto;
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
 }
 
 .form-overlay__modal button {
