@@ -84,9 +84,9 @@ document.addEventListener('DOMContentLoaded', function(){
     // d3.select(this).attr('transform', 'translate(-100,-100)')
     d3.selectAll('path').style('opacity', '.2')
     d3.select(this).selectAll('path').style('opacity', '1')
-    tooltip.style('background', 'linear-gradient('+ d.colors[2] +', ' + d.colors[3] +')')
-    tooltip.style('border', '1px solid' + d.colors[3])
-    tooltip.html('<h3>' + d.name + '</h3>' + '<p>' + d.tooltext + '</p>');
+    tooltip.style('background', d.colors[2])
+    tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
+    tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<p>' + d.tooltext + '</p>');
   }).on('mouseout', function(){
     d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
