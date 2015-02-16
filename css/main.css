@@ -358,6 +358,9 @@ h1 {
   font-size: 2em;
   /* font-family: 'desyrelregular'; */ }
 
+body {
+  line-height: 1.4; }
+
 p {
   max-width: 40em; }
 
@@ -492,7 +495,6 @@ dt, dd {
 .tooltip {
   /* transition: all .5s; */
   border-radius: 5px;
-  font-size: 0.8em;
   color: white;
   padding: 10px 30px;
   margin-top: 2em;
