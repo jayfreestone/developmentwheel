@@ -491,7 +491,8 @@ button {
     color: #40A2C7; }
 
 .form-overlay__inputs {
-  visibility: hidden; }
+  visibility: hidden;
+  margin-bottom: 2em; }
 
 .form-overlay__modal {
   border-radius: 5px;
