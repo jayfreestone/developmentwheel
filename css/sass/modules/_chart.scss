@@ -4,6 +4,11 @@
   width: 50%;
   padding: 1em;
 
+	@include breakpoint(900px){
+		width: 100%;
+	}
+
+
   button {
     display: none;
     margin: 0 auto;

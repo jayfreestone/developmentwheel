@@ -8,6 +8,11 @@
   border-top: 1px solid lighten(#14537C, 60%);
   border-bottom: 1px solid lighten(#14537C, 60%);
 
+  @include breakpoint(900px){
+    margin-top: 2em;
+    padding-top: 2em;
+  }
+
   ol {
     font-size: 3em;
     font-weight: bold;
@@ -19,6 +24,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   li {
@@ -26,9 +32,20 @@
     transition: all .5s;
     margin-bottom: 0;
 
+    @include breakpoint(900px){
+      text-align:center;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
     &:before {
       content: counter(item) " ";
       counter-increment: item;
+
+      @include breakpoint(900px){
+        display: block;
+        clear: both;
+      }
     }
   }
 }

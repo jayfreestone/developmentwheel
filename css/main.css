@@ -388,6 +388,9 @@ path {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   margin-top: 2em; }
 
 button {
@@ -411,6 +414,9 @@ button {
   float: left;
   width: 50%;
   padding: 1em; }
+  @media only screen and (max-width: 900px) {
+    #chart {
+      width: 100%; } }
   #chart button {
     display: none;
     margin: 0 auto;
@@ -430,6 +436,10 @@ button {
   margin-top: 1em;
   border-top: 1px solid #cbe6f7;
   border-bottom: 1px solid #cbe6f7; }
+  @media only screen and (max-width: 900px) {
+    .legend {
+      margin-top: 2em;
+      padding-top: 2em; } }
   .legend ol {
     font-size: 3em;
     font-weight: bold;
@@ -449,15 +459,27 @@ button {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
   .legend li {
     margin-bottom: .5em;
     -webkit-transition: all .5s;
             transition: all .5s;
     margin-bottom: 0; }
+    @media only screen and (max-width: 900px) {
+      .legend li {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1em; } }
     .legend li:before {
       content: counter(item) " ";
       counter-increment: item; }
+      @media only screen and (max-width: 900px) {
+        .legend li:before {
+          display: block;
+          clear: both; } }
 
 .list-item {
   font-size: .8rem;
@@ -545,3 +567,7 @@ dt, dd {
 .explanation {
   width: 40%;
   margin-top: -3em; }
+  @media only screen and (max-width: 900px) {
+    .explanation {
+      width: 100%;
+      margin-top: 0; } }

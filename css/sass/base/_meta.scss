@@ -1,3 +1,7 @@
+@mixin breakpoint($breakpoint) {
+    @media only screen and (max-width: $breakpoint) { @content; }
+}
+
 @keyframes rotateIn {
   from {
     transform: rotate(-300deg);
