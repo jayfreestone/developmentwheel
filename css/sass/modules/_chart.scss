@@ -1,5 +1,6 @@
 #chart {
-  // animation: rotateIn 1s forwards;
+  //Messy in IE
+  animation: rotateIn 1s forwards;
   float:left;
   width: 50%;
   padding: 1em;

@@ -409,6 +409,8 @@ button {
   color: white; }
 
 #chart {
+  -webkit-animation: rotateIn 1s forwards;
+          animation: rotateIn 1s forwards;
   float: left;
   width: 50%;
   padding: 1em; }
@@ -555,7 +557,9 @@ dt, dd {
   background: #1AA1DF;
   float: right;
   width: 100%;
-  border: 1.5px solid rgba(255, 255, 255, 0.2); }
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  -webkit-transition: .2s all;
+          transition: .2s all; }
   .tooltip h3 {
     font-weight: normal;
     margin-bottom: 0; }
