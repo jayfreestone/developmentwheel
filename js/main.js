@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-
   var areas = [
     {
       name: 'Risk Management',
@@ -32,41 +31,35 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   ];
 
+  //Makes a class-friendly name out of the area titles
   var nameToClass = function(d){return d.name.replace(/\s+/g, '-').toLowerCase()};
 
   var tooltip = d3.select('.explanation').append('div')
       .classed('tooltip', true)
       .html('Hover over a group');
 
-  // var ratingPop = d3.select('body').append('div')
-  //   .classed('rating-tooltip', true);
-
+  //Build the Arc shape
   var arc =  function(i){
     if (i === 1){
+      //If it's the first iteration make it pie-shaped
       return d3.svg.arc()
         .innerRadius(0)
         .outerRadius(100)
         .startAngle(0 * (Math.PI/180))
         .endAngle(72 * (Math.PI/180))
 
-    } 
-    // else if (i === 6) {
-    //   return d3.svg.arc()
-    //     .innerRadius(0)
-    //     .outerRadius(500)
-    //     .startAngle(0 * (Math.PI/180))
-    //     .endAngle(72 * (Math.PI/180))
-    // } 
-    else {
+    } else {
+      //We pass in the iterator later and then multiply the Radius
+      //by it to create concentric circles
       return d3.svg.arc()
         .innerRadius(i * 50)
         .outerRadius((i * 50)+50)
         .startAngle(0 * (Math.PI/180))
         .endAngle(72 * (Math.PI/180))
-
     }
   };
 
+  //We create the chart
   var pathGroup = d3.select('#chart')
     .append('svg')
     .attr("preserveAspectRatio", "xMinYMin meet")
@@ -74,81 +67,97 @@ document.addEventListener('DOMContentLoaded', function(){
     .append('g')
 
     .selectAll('path').data(areas)
+      //We create a group for each set of related paths (or area)
       .enter().append('g')
       .attr('class', function(d){
         return nameToClass(d);
       })
 
-
+  //Hovering over a group changes the tooltip's color and content
   pathGroup.on('mouseover', function(d){
-    // d3.select(this).attr('transform', 'translate(-100,-100)')
     d3.selectAll('path').style('opacity', '.2')
     d3.select(this).selectAll('path').style('opacity', '1')
     tooltip.style('background', d.colors[2])
     tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
     tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<p>' + d.tooltext + '</p>');
   }).on('mouseout', function(){
-    d3.selectAll('path').style('opacity', '1')
+      d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
+    //On click we add the selected class to the grup, 
+    //letting us figure out later if there's at least one selected in each group
     this.classList.add('group--selected');
   })
 
-
   var listItems = document.querySelectorAll('.legend li');
+
+  //Now we create each ring of the chart by looping over 5 times
   for(var x = 1; x < 6; x ++){
+    //Path Group contains the currently selected path in a group
     pathGroup.append('path')
+      //We add the iterator as a class, which will also serve
+      //to identify the numeric value of the ring when we map it
+      //to an input
       .classed(x, true)
       .attr('d', arc(x))
       .style('fill', function(d){
         return d.colors[x-1];
       })
       .attr('transform', function(d, i){
+        //We position it by rotating it 72 degrees each time through
         return  'translate(300, 300) ' + 'rotate(' + (i * 72) + ') ';
       })
       .on('mouseover', function(d){
+        //We use the class to highlight the relevant number in the legend
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 0.2;
         }
         listItems[this.classList - 1].style.opacity = 1;
       })
       .on('mouseout', function(d){
-        // d3.select(this).style('stroke', 'white')
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 1;
         }
       })
       .on('click', function(d){
         var name = '.' + nameToClass(d) + ' .selected';
+        //We brute force it and remove all selected items from the group
         pathGroup.selectAll(name).classed('selected', false)
+        //We check the related ratio button in the hidden form
         document.getElementsByName(nameToClass(d)+'__text')[this.classList -1 ].checked = true;
-        document.getElementsByName(nameToClass(d)+'__dd').innerHTML ="cake";
+        //We add the result to the overlay table
         d3.select('.' + nameToClass(d)+'__dd').html(this.classList + '/5');
+        //We re-add the class to the clicked segement
         d3.select(this).classed('selected', true);
       })
 
+      //Effects for fading in each group on load
       .attr('opacity', 0)
       .transition()
       .delay(function(d, i){
+        //We delay the effect based on the group, fading them in sequentially
         return i * 50;
       })
       .duration(100)
       .attr('opacity', 1)
   }
 
-
   var formOverlay = document.querySelector('.form-overlay');
 
+  //We add the 'Finish' button that will return the overlay after being dismissed
   d3.select('#chart').append('button').classed('button--hl', true).html('Finish').on('click', function(){
       formOverlay.classList.add('visible');
   });
 
+  //Hides the modal popup
   var hideModal = function(){
     this.classList.remove('visible');
     document.querySelector('#chart button').style.display = 'block';
   };
 
+  //Clicking the back of the modal overlay hides it
   formOverlay.onclick = hideModal;
 
+  //The return button on the modal also hides it
   document.querySelector('.button-return').onclick = function(event){
     event.preventDefault();
     hideModal;
@@ -156,12 +165,15 @@ document.addEventListener('DOMContentLoaded', function(){
 
   var hasAppeared;
   document.querySelector('#chart').onclick = function(){
+    //When all segements are filled out we display the modal,
+    //but only do so once. Subsequent changes will not reactivate it.
+    //Instead it can be re-activated with the 'Finish' button
     if (document.querySelectorAll('.group--selected').length === areas.length && hasAppeared !== true){
+      //We set a variable so we can tell if this is the first time it has appeared
       hasAppeared = true;
       formOverlay.classList.add('visible');
     }
   };
-
 
 });
 
