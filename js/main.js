@@ -85,7 +85,8 @@ document.addEventListener('DOMContentLoaded', function(){
   }).on('click', function(){
     //On click we add the selected class to the grup, 
     //letting us figure out later if there's at least one selected in each group
-    this.classList.add('group--selected');
+    // this.classList.add('group--selected');
+    d3.select(this).classed('group--selected', true);
   })
 
   var listItems = document.querySelectorAll('.legend li');
@@ -111,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function(){
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 0.2;
         }
-        listItems[this.classList - 1].style.opacity = 1;
+        listItems[d3.select(this).attr('class') - 1].style.opacity = 1;
       })
       .on('mouseout', function(d){
         for(var c = 0; c < listItems.length; c++){
@@ -123,9 +124,9 @@ document.addEventListener('DOMContentLoaded', function(){
         //We brute force it and remove all selected items from the group
         pathGroup.selectAll(name).classed('selected', false)
         //We check the related ratio button in the hidden form
-        document.getElementsByName(nameToClass(d)+'__text')[this.classList -1 ].checked = true;
+        document.getElementsByName(nameToClass(d)+'__text')[d3.select(this).attr('class') -1 ].checked = true;
         //We add the result to the overlay table
-        d3.select('.' + nameToClass(d)+'__dd').html(this.classList + '/5');
+        d3.select('.' + nameToClass(d)+'__dd').html(d3.select(this).attr('class') + '/5');
         //We re-add the class to the clicked segement
         d3.select(this).classed('selected', true);
       })
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   //We add the 'Finish' button that will return the overlay after being dismissed
   d3.select('#chart').append('button').classed('button--hl', true).html('Finish').on('click', function(){
-      formOverlay.classList.add('visible');
+      d3.select('.form-overlay').classed('visible', true)
   });
 
   //Hides the modal popup
@@ -171,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if (document.querySelectorAll('.group--selected').length === areas.length && hasAppeared !== true){
       //We set a variable so we can tell if this is the first time it has appeared
       hasAppeared = true;
-      formOverlay.classList.add('visible');
+      d3.select('.form-overlay').classed('visible', true)
     }
   };
 
