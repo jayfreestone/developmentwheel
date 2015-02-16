@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function(){
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 0.2;
         }
-        listItems[d3.select(this).attr('class') - 1].style.opacity = 1;
+        listItems[d3.select(this).attr('class').replace("selected", "") - 1].style.opacity = 1;
       })
       .on('mouseout', function(d){
         for(var c = 0; c < listItems.length; c++){
