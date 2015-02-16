@@ -18,7 +18,8 @@ Each user will be able to select one segment per area of ability, equivalent to 
 
 The chart is built in d3 and fed data through a hard-coded array.
 
-The HTML, however, is not entirely generated. Adding a new segment would involve additions to the markup (for the form/modal) or editing the d3 script to generate this based on the array data.
+Most of the markup is programatically generated from the data array.
+
 
 ## Requirements
 - d3

@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function(){
         .innerRadius(0)
         .outerRadius(100)
         .startAngle(0 * (Math.PI/180))
-        .endAngle(72 * (Math.PI/180))
+        .endAngle((360/areas.length) * (Math.PI/180))
 
     } else {
       //We pass in the iterator later and then multiply the Radius
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function(){
         .innerRadius(i * 50)
         .outerRadius((i * 50)+50)
         .startAngle(0 * (Math.PI/180))
-        .endAngle(72 * (Math.PI/180))
+        .endAngle((360/areas.length) * (Math.PI/180))
     }
   };
 
@@ -145,13 +145,25 @@ document.addEventListener('DOMContentLoaded', function(){
 
   var formOverlay = document.querySelector('.form-overlay');
 
-  var dl = d3.select('.form-overlay .form-overlay__modal dl').selectAll('.form-overlay dl').data(areas).enter(); 
-  // dl.append('dt').html(function(d){return d.name;});
-  // dl.append('dt').html(function(d){return d.name;});
 
   for (var a = 0; a < areas.length; a++){
+    // We build up the dl list automatically
     d3.select('.form-overlay .form-overlay__modal dl').append('dt').html(areas[a].name);
     d3.select('.form-overlay .form-overlay__modal dl').append('dd').classed(nameToClass(areas[a]) + '__dd', true);
+
+    //We build up the input list automatically
+    d3.select('.form-overlay__inputs').append('label').html(areas[a].name).attr('for', nameToClass(areas[a]) + '-input');
+
+    for (var b = 1; b < 6; b++){
+      var input = d3.select('.form-overlay__inputs')
+        .append('input')
+        .attr('type', 'radio')
+        .attr('name', nameToClass(areas[a]) + "__text")
+        .attr('value', b)
+        if (b === 1){
+          input.attr('id', nameToClass(areas[a]) + '-input')
+        }
+    }
   }
 
   //We add the 'Finish' button that will return the overlay after being dismissed
