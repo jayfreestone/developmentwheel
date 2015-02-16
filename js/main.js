@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', function(){
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 600")
     //For IE, temp fix
-    .attr("width", 500)
-    .attr("height", 500)
+    .attr("width", 550)
+    .attr("height", 550)
     .append('g')
 
     .selectAll('path').data(areas)
