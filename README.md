@@ -18,7 +18,7 @@ Each user will be able to select one segment per area of ability, equivalent to 
 
 The chart is built in d3 and fed data through a hard-coded array.
 
-Most of the markup is programatically generated from the data array.
+Most of the markup is programmatically generated from the data array.
 
 
 ## Requirements
