@@ -3,13 +3,11 @@ document.addEventListener('DOMContentLoaded', function(){
   var areas = [
     {
       name: 'Risk Management',
-      color: 'purple',
       colors: ['#DE9AC5', '#D570B1', '#CA4A9C', '#922C6E', '#5E1C47'],
       tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
       name: 'Client Management',
-      color: 'blue',
       colors: ['#71B9E9', '#3A9CDF', '#2582C4', '#1C6597', '#16527A'],
       tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       name: 'Personal Effectiveness',
-      color: 'green',
       colors: ['#D6EAB8', '#B9DB85', '#A2CF5F', '#8BC041', '#78A538'],
       tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
@@ -145,7 +142,17 @@ document.addEventListener('DOMContentLoaded', function(){
       .attr('opacity', 1)
   }
 
+
   var formOverlay = document.querySelector('.form-overlay');
+
+  var dl = d3.select('.form-overlay .form-overlay__modal dl').selectAll('.form-overlay dl').data(areas).enter(); 
+  // dl.append('dt').html(function(d){return d.name;});
+  // dl.append('dt').html(function(d){return d.name;});
+
+  for (var a = 0; a < areas.length; a++){
+    d3.select('.form-overlay .form-overlay__modal dl').append('dt').html(areas[a].name);
+    d3.select('.form-overlay .form-overlay__modal dl').append('dd').classed(nameToClass(areas[a]) + '__dd', true);
+  }
 
   //We add the 'Finish' button that will return the overlay after being dismissed
   d3.select('#chart').append('button').classed('button--hl', true).html('Finish').on('click', function(){
