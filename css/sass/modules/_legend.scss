@@ -1,0 +1,40 @@
+.legend {
+  font-size: 1em;
+  float: left;
+  width: 25%;
+}
+
+.legend ol {
+  font-size: 3em;
+  font-weight: bold;
+  counter-reset: item;
+  list-style-type: none;
+  color: #14537C;
+  padding-left: 0;
+}
+
+.legend li {
+  margin-bottom: .5em;
+  transition: all .5s;
+}
+
+.legend li:before {
+  content: counter(item) " ";
+  counter-increment: item;
+}
+
+.list-item {
+  font-size: .8rem;
+  font-weight: normal;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.list-item h4, .list-item p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.list-item h4 {
+  color: #40A2C7;
+}

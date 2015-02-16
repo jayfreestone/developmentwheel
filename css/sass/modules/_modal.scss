@@ -1,0 +1,52 @@
+.form-overlay__inputs {
+  visibility: hidden;
+}
+
+.form-overlay__modal {
+  border-radius: 5px;
+  padding: 2em 3em;
+  background: white;
+  max-width: 35em;
+  margin: 0 auto;
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.form-overlay__modal button {
+  float: right;
+}
+
+
+dd {
+  margin-left: 0;
+  clear:right;
+}
+
+dt {
+  color: #19547A;
+  clear:left;
+  margin-right: .5em;
+}
+
+dt, dd {
+  float:left;
+}
+
+.form-overlay {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, .8);
+  visibility: hidden;
+  opacity: 0;
+  /* cursor: pointer; */
+  transition: .3s all;
+}
+
+.form-overlay.visible {
+  visibility:visible;
+  opacity: 1;
+}

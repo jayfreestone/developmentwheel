@@ -1,0 +1,18 @@
+button {
+  border: none;
+  border-radius: 5px;
+  padding: .6em 2em;
+  border: 1px solid #1CA0DA;
+  background: none;
+  color: #1CA0DA;
+  margin: .5em;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button--hl {
+  background-color: #1CA0DA;
+  color: white;
+}

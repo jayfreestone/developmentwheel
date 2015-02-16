@@ -1,0 +1,21 @@
+#chart {
+  animation: rotateIn 1s forwards;
+  float:left;
+  width: 50%;
+  padding: 1em;
+}
+
+
+#chart button {
+  display: none;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.group--selected path{
+  opacity: 0.2 !important;
+}
+
+.group--selected .selected {
+  opacity: 1 !important;
+}
