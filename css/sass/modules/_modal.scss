@@ -9,10 +9,10 @@
   max-width: 35em;
   margin: 0 auto;
   margin-top: -7em;
-}
 
-.form-overlay__modal button {
-  float: right;
+  button {
+    float: right;
+  }
 }
 
 dd {
@@ -43,7 +43,6 @@ dt, dd {
   background: rgba(0,0,0, .8);
   visibility: hidden;
   opacity: 0;
-  /* cursor: pointer; */
   transition: .3s all;
 }
 

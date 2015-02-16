@@ -6,10 +6,10 @@ button {
   background: none;
   color: #1CA0DA;
   margin: .5em;
-}
 
-button:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 .button--hl {
