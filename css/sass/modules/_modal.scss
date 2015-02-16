@@ -8,15 +8,12 @@
   background: white;
   max-width: 35em;
   margin: 0 auto;
-  transform: translate(0, 50%) !important;
-  -ms-transform: translate(0, 50%) !important; /* IE 9 */
-  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+  margin-top: -7em;
 }
 
 .form-overlay__modal button {
   float: right;
 }
-
 
 dd {
   margin-left: 0;
@@ -35,6 +32,10 @@ dt, dd {
 
 .form-overlay {
   position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   top:0;
   bottom: 0;
   left: 0;
