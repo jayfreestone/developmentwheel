@@ -1,5 +1,5 @@
 #chart {
-  animation: rotateIn 1s forwards;
+  // animation: rotateIn 1s forwards;
   float:left;
   width: 50%;
   padding: 1em;
@@ -7,7 +7,6 @@
 	@include breakpoint(900px){
 		width: 100%;
 	}
-
 
   button {
     display: none;

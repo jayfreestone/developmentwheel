@@ -64,6 +64,9 @@ document.addEventListener('DOMContentLoaded', function(){
     .append('svg')
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 600")
+    //For IE, temp fix
+    .attr("width", 500)
+    .attr("height", 500)
     .append('g')
 
     .selectAll('path').data(areas)
