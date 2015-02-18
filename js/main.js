@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function(){
         return d.colors[x-1];
       })
       .attr('transform', function(d, i){
-        //We position it by rotating it 72 degrees each time through
+        //We position it by rotating it each time through
         return  'translate(300, 300) ' + 'rotate(' + (i * (360/areas.length)) + ') ';
       })
       .on('mouseover', function(d){
