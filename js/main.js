@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
   var areas = [
     {
-      name: 'Risk Management',
-      colors: ['#DE9AC5', '#D570B1', '#CA4A9C', '#922C6E', '#5E1C47'],
+      name: 'Technology',
+      colors: ['#b5d5fd', '#83b9fc', '#529dfa', '#2081f9', '#065fd0'],
       tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       name: 'Finance Management',
       colors: ['#CCCCCC', '#B2B2B2', '#999999', '#6E6E6E', '#545454'],
+      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      name: 'Risk Management',
+      colors: ['#DE9AC5', '#D570B1', '#CA4A9C', '#922C6E', '#5E1C47'],
       tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     }
   ];
@@ -105,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function(){
       })
       .attr('transform', function(d, i){
         //We position it by rotating it 72 degrees each time through
-        return  'translate(300, 300) ' + 'rotate(' + (i * 72) + ') ';
+        return  'translate(300, 300) ' + 'rotate(' + (i * (360/areas.length)) + ') ';
       })
       .on('mouseover', function(d){
         //We use the class to highlight the relevant number in the legend
