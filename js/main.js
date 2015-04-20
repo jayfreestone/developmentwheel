@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function(){
       colors: ['#D6EAB8', '#B9DB85', '#A2CF5F', '#8BC041', '#78A538'],
       tooltext: [
         
-        '<li>Managing self to to meet deadlines and achieve results</li>'+
+        '<li>Managing self to meet deadlines and achieve results</li>'+
         '<li>Taking ownership and responsibility for solving problems</li>'+
         '<li>Identifying and analysing key issues ensuring full information is considered</li>'+
         '<li>Listening well and asking good questions</li>' +
