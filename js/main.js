@@ -4,32 +4,304 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       name: 'Technology',
       colors: ['#b5d5fd', '#83b9fc', '#529dfa', '#2081f9', '#065fd0'],
-      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      tooltext: [
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+      ]
     },
     {
       name: 'Client Management',
       colors: ['#71B9E9', '#3A9CDF', '#2582C4', '#1C6597', '#16527A'],
-      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      tooltext: [
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+      ]
     },
     {
       name: 'Collaboration',
       colors: ['#FCCDB6', '#F9AB86', '#F88A58', '#F6692F', '#DC511D'],
-      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      tooltext: [
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+      ]
     },
     {
       name: 'Personal Effectiveness',
       colors: ['#D6EAB8', '#B9DB85', '#A2CF5F', '#8BC041', '#78A538'],
-      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      tooltext: [
+        
+        '<li>Managing self to to meet deadlines and achieve results</li>'+
+        '<li>Taking ownership and responsibility for solving problems</li>'+
+        '<li>Identifying and analysing key issues ensuring full information is considered</li>'+
+        '<li>Listening well and asking good questions</li>' +
+        '<li>Using logic and reason to influence others</li>' +
+        '<li>Communicating clearly and concisely and with conviction in group and individual situations and in writing</li>' +
+        '<li>Demonstrating a constructive and positive attitude</li>' +
+        '<li>Selecting and using the appropriate business systems and IT resources to manage, monitor and review performance</li>',
+
+        '<li>Managing self and others to meet deadlines and achieve results</li>'+
+        '<li>Recognising one solution may not solve the same issue every time</li>'+
+        '<li>Assessing and analysing risks associated with the problem and recommended solutions</li>'+
+        '<li>Making timely and workable decisions</li>'+
+        '<li>Persuading when advocating a position or expressing an opinion or conclusion</li>'+
+        '<li>Being articulate, concise and logical when speaking or writing</li>'+
+        '<li>Responding with speed and accuracy to others in person and/or with correspondence</li>'+
+        '<li>Using appropriate business and IT resources to monitor and review progress</li>',
+
+        '<li>Delegating work as appropriate and monitoring the progress of the work delegated</li>'+
+        '<li>Identifying potential problem areas before they arise</li>'+
+        '<li>Identifying strategies to resolve problems</li>'+
+        '<li>Selecting appropriate communication techniques when challenging others decisions or actions</li>'+
+        '<li>Expressing point of view confidently and persuasively</li>'+
+        '<li>Articulating written arguments tailored to audience requirements</li>'+
+        '<li>Producing documents in client ready format</li>'+
+        '<li>Handling objections skilfully by acknowledging issues and suggesting alternatives</li>',
+
+        '<li>Identifying and managing complex and often conflicting priorities to achieve results</li>'+
+        '<li>Identifying repeat problems through the analysis and interpretation of trends and patterns</li>'+
+        '<li>Acting to resolve the cause of problems</li>'+
+        '<li>Presenting complex concepts simply and logically</li>'+
+        '<li>Understanding and considering the negotating position of others</li>'+
+        '<li>Recognising the level of influence others have and adapting own style and strategies accordingly</li>'+
+        '<li>Speaking with confidence, focus, logically and persuasively</li>'+
+        '<li>Identifying range of methods to assess and analyse risks</li>',
+
+        '<li>Encourages a culture of innovation and continuous improvement to support exceptional delivery</li>'+
+        '<li>Build relationships with colleagues across the business to ensure consistent client service</li>'+
+        '<li>Remains calm under pressure and demonstrates ability to manage conflict effectively</li>'+
+        '<li>Generates confidence and credibility through presence and impact</li>'+
+        '<li>Ensures they maintain good awareness of external market conditions and competitor intelligence</li>'+
+        '<li>Invests time in getting to know others at all levels in the firm and builds relationships</li>'+
+        '<li>Is always mindful of position as a role model for the firm\'s values and is committed to instilling them in staff</li>'+
+        '<li>Understands the need to take all opportunities to create a positive working environment</li>'
+
+      ]
     },
     {
       name: 'Finance Management',
       colors: ['#CCCCCC', '#B2B2B2', '#999999', '#6E6E6E', '#545454'],
-      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      tooltext: [
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+      ]
     },
     {
       name: 'Risk Management',
       colors: ['#DE9AC5', '#D570B1', '#CA4A9C', '#922C6E', '#5E1C47'],
-      tooltext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      tooltext: [
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+      ]
     }
   ];
 
@@ -84,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function(){
     d3.select(this).selectAll('path').style('opacity', '1')
     tooltip.style('background', d.colors[2])
     tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
-    tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<p>' + d.tooltext + '</p>');
+    // tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<p>' + d.tooltext + '</p>');
   }).on('mouseout', function(){
       d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
@@ -113,6 +385,11 @@ document.addEventListener('DOMContentLoaded', function(){
         return  'translate(300, 300) ' + 'rotate(' + (i * (360/areas.length)) + ') ';
       })
       .on('mouseover', function(d){
+        //We filter the class to get the number of the segment we're hovering over
+        //The regex is necessary to bypass the selected class and only get a numeric one
+        var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
+        //We replace the tooltip text with the relevant list items from the array
+        tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
         //We use the class to highlight the relevant number in the legend
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 0.2;

@@ -370,6 +370,9 @@ path {
   -webkit-transition: all .5s;
           transition: all .5s; }
 
+ul {
+  padding-left: 1em; }
+
 .container {
   padding: 1em 2em;
   max-width: 1200px;
