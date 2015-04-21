@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', function(){
         //The regex is necessary to bypass the selected class and only get a numeric one
         var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
         //We replace the tooltip text with the relevant list items from the array
-        tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
+        tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
         //We use the class to highlight the relevant number in the legend
         for(var c = 0; c < listItems.length; c++){
           listItems[c].style.opacity = 0.2;
