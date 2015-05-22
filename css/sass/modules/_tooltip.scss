@@ -37,6 +37,11 @@
     margin-right: 10px;
     margin-top: 3px;
   }
+
+  button {
+    color: white;
+    border-color: white;
+  }
 }
 
 .explanation {
@@ -52,4 +57,8 @@
 .listitem {
   float: left;
   width: 90%;
+}
+
+.tooltip-done {
+ width: 100%; 
 }

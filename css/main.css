@@ -616,6 +616,9 @@ dt, dd {
     float: left;
     margin-right: 10px;
     margin-top: 3px; }
+  .tooltip button {
+    color: white;
+    border-color: white; }
 
 .explanation {
   width: 40%;
@@ -628,3 +631,6 @@ dt, dd {
 .listitem {
   float: left;
   width: 90%; }
+
+.tooltip-done {
+  width: 100%; }
