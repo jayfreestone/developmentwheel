@@ -1,7 +1,7 @@
 .tooltip {
   border-radius: 5px;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 30px 30px;
   background:#1AA1DF;
   float: right;
   width: 100%;
@@ -13,8 +13,29 @@
     margin-bottom: 0;
   }
 
+  ul {
+    padding-left: 0;
+  }
+
   hr {
     border-color: rgba(white, .2);
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    clear: both;
+    padding: .3em;
+
+    &:not(:last-child){
+      border-bottom: 1.5px solid rgba(white, .1);
+    }
+  }
+
+  input {
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
   }
 }
 
@@ -26,4 +47,9 @@
     width: 100%;
     margin-top: 0;
   }
+}
+
+.listitem {
+  float: left;
+  width: 90%;
 }

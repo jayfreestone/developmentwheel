@@ -5,150 +5,150 @@ document.addEventListener('DOMContentLoaded', function(){
       name: 'Technology',
       colors: ['#b5d5fd', '#83b9fc', '#529dfa', '#2081f9', '#065fd0'],
       tooltext: [
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
       ]
     },
     {
       name: 'Client Management',
       colors: ['#71B9E9', '#3A9CDF', '#2582C4', '#1C6597', '#16527A'],
       tooltext: [
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
       ]
     },
     {
       name: 'Collaboration',
       colors: ['#FCCDB6', '#F9AB86', '#F88A58', '#F6692F', '#DC511D'],
       tooltext: [
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
       ]
     },
     {
@@ -156,50 +156,50 @@ document.addEventListener('DOMContentLoaded', function(){
       colors: ['#D6EAB8', '#B9DB85', '#A2CF5F', '#8BC041', '#78A538'],
       tooltext: [
         
-        '<li>Managing self to meet deadlines and achieve results</li>'+
-        '<li>Taking ownership and responsibility for solving problems</li>'+
-        '<li>Identifying and analysing key issues ensuring full information is considered</li>'+
-        '<li>Listening well and asking good questions</li>' +
-        '<li>Using logic and reason to influence others</li>' +
-        '<li>Communicating clearly and concisely and with conviction in group and individual situations and in writing</li>' +
-        '<li>Demonstrating a constructive and positive attitude</li>' +
-        '<li>Selecting and using the appropriate business systems and IT resources to manage, monitor and review performance</li>',
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Managing self to meet deadlines and achieve results</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Taking ownership and responsibility for solving problems</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Identifying and analysing key issues ensuring full information is considered</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Listening well and asking good questions</li></div>' +
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Using logic and reason to influence others</li></div>' +
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Communicating clearly and concisely and with conviction in group and individual situations and in writing</li></div>' +
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Demonstrating a constructive and positive attitude</li></div>' +
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Selecting and using the appropriate business systems and IT resources to manage, monitor and review performance</li></div>',
 
-        '<li>Managing self and others to meet deadlines and achieve results</li>'+
-        '<li>Recognising one solution may not solve the same issue every time</li>'+
-        '<li>Assessing and analysing risks associated with the problem and recommended solutions</li>'+
-        '<li>Making timely and workable decisions</li>'+
-        '<li>Persuading when advocating a position or expressing an opinion or conclusion</li>'+
-        '<li>Being articulate, concise and logical when speaking or writing</li>'+
-        '<li>Responding with speed and accuracy to others in person and/or with correspondence</li>'+
-        '<li>Using appropriate business and IT resources to monitor and review progress</li>',
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Managing self and others to meet deadlines and achieve results</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Recognising one solution may not solve the same issue every time</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Assessing and analysing risks associated with the problem and recommended solutions</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Making timely and workable decisions</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Persuading when advocating a position or expressing an opinion or conclusion</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Being articulate, concise and logical when speaking or writing</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Responding with speed and accuracy to others in person and/or with correspondence</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Using appropriate business and IT resources to monitor and review progress</li></div>',
 
-        '<li>Delegating work as appropriate and monitoring the progress of the work delegated</li>'+
-        '<li>Identifying potential problem areas before they arise</li>'+
-        '<li>Identifying strategies to resolve problems</li>'+
-        '<li>Selecting appropriate communication techniques when challenging others decisions or actions</li>'+
-        '<li>Expressing point of view confidently and persuasively</li>'+
-        '<li>Articulating written arguments tailored to audience requirements</li>'+
-        '<li>Producing documents in client ready format</li>'+
-        '<li>Handling objections skilfully by acknowledging issues and suggesting alternatives</li>',
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Delegating work as appropriate and monitoring the progress of the work delegated</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Identifying potential problem areas before they arise</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Identifying strategies to resolve problems</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Selecting appropriate communication techniques when challenging others decisions or actions</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Expressing point of view confidently and persuasively</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Articulating written arguments tailored to audience requirements</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Producing documents in client ready format</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Handling objections skilfully by acknowledging issues and suggesting alternatives</li></div>',
 
-        '<li>Identifying and managing complex and often conflicting priorities to achieve results</li>'+
-        '<li>Identifying repeat problems through the analysis and interpretation of trends and patterns</li>'+
-        '<li>Acting to resolve the cause of problems</li>'+
-        '<li>Presenting complex concepts simply and logically</li>'+
-        '<li>Understanding and considering the negotating position of others</li>'+
-        '<li>Recognising the level of influence others have and adapting own style and strategies accordingly</li>'+
-        '<li>Speaking with confidence, focus, logically and persuasively</li>'+
-        '<li>Identifying range of methods to assess and analyse risks</li>',
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Identifying and managing complex and often conflicting priorities to achieve results</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Identifying repeat problems through the analysis and interpretation of trends and patterns</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Acting to resolve the cause of problems</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Presenting complex concepts simply and logically</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Understanding and considering the negotating position of others</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Recognising the level of influence others have and adapting own style and strategies accordingly</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Speaking with confidence, focus, logically and persuasively</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Identifying range of methods to assess and analyse risks</li></div>',
 
-        '<li>Encourages a culture of innovation and continuous improvement to support exceptional delivery</li>'+
-        '<li>Build relationships with colleagues across the business to ensure consistent client service</li>'+
-        '<li>Remains calm under pressure and demonstrates ability to manage conflict effectively</li>'+
-        '<li>Generates confidence and credibility through presence and impact</li>'+
-        '<li>Ensures they maintain good awareness of external market conditions and competitor intelligence</li>'+
-        '<li>Invests time in getting to know others at all levels in the firm and builds relationships</li>'+
-        '<li>Is always mindful of position as a role model for the firm\'s values and is committed to instilling them in staff</li>'+
-        '<li>Understands the need to take all opportunities to create a positive working environment</li>'
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Encourages a culture of innovation and continuous improvement to support exceptional delivery</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Build relationships with colleagues across the business to ensure consistent client service</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Remains calm under pressure and demonstrates ability to manage conflict effectively</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Generates confidence and credibility through presence and impact</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Ensures they maintain good awareness of external market conditions and competitor intelligence</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Invests time in getting to know others at all levels in the firm and builds relationships</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Is always mindful of position as a role model for the firm\'s values and is committed to instilling them in staff</li></div>'+
+        '<li><input type="checkbox" name="" value=""><div class="listitem">Understands the need to take all opportunities to create a positive working environment</li></div>'
 
       ]
     },
@@ -207,100 +207,100 @@ document.addEventListener('DOMContentLoaded', function(){
       name: 'Finance Management',
       colors: ['#CCCCCC', '#B2B2B2', '#999999', '#6E6E6E', '#545454'],
       tooltext: [
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
       ]
     },
     {
       name: 'Risk Management',
       colors: ['#DE9AC5', '#D570B1', '#CA4A9C', '#922C6E', '#5E1C47'],
       tooltext: [
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
 
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>',
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'+
-        '<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>'
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
       ]
     }
   ];
@@ -352,11 +352,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
   //Hovering over a group changes the tooltip's color and content
   pathGroup.on('mouseover', function(d){
-    d3.selectAll('path').style('opacity', '.2')
-    d3.select(this).selectAll('path').style('opacity', '1')
-    tooltip.style('background', d.colors[2])
-    tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
-    // tooltip.html('<h3>' + d.name + '</h3>' + '<hr />' + '<p>' + d.tooltext + '</p>');
+    if(d3.select('.group--selected').empty()){
+        d3.selectAll('path').style('opacity', '.2')
+        d3.select(this).selectAll('path').style('opacity', '1')
+        tooltip.style('background', d.colors[2])
+        tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
+    }
   }).on('mouseout', function(){
       d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
@@ -385,20 +386,24 @@ document.addEventListener('DOMContentLoaded', function(){
         return  'translate(300, 300) ' + 'rotate(' + (i * (360/areas.length)) + ') ';
       })
       .on('mouseover', function(d){
-        //We filter the class to get the number of the segment we're hovering over
-        //The regex is necessary to bypass the selected class and only get a numeric one
-        var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
-        //We replace the tooltip text with the relevant list items from the array
-        tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
-        //We use the class to highlight the relevant number in the legend
-        for(var c = 0; c < listItems.length; c++){
-          listItems[c].style.opacity = 0.2;
+        if(d3.select('.group--selected').empty()){
+            //We filter the class to get the number of the segment we're hovering over
+            //The regex is necessary to bypass the selected class and only get a numeric one
+            var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
+            //We replace the tooltip text with the relevant list items from the array
+            tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
+            //We use the class to highlight the relevant number in the legend
+            for(var c = 0; c < listItems.length; c++){
+              listItems[c].style.opacity = 0.2;
+            }
+            listItems[d3.select(this).attr('class').replace("selected", "") - 1].style.opacity = 1;
         }
-        listItems[d3.select(this).attr('class').replace("selected", "") - 1].style.opacity = 1;
       })
       .on('mouseout', function(d){
-        for(var c = 0; c < listItems.length; c++){
-          listItems[c].style.opacity = 1;
+        if(d3.select('.group--selected').empty()){
+            for(var c = 0; c < listItems.length; c++){
+              listItems[c].style.opacity = 1;
+            }
         }
       })
       .on('click', function(d){
@@ -411,6 +416,21 @@ document.addEventListener('DOMContentLoaded', function(){
         d3.select('.' + nameToClass(d)+'__dd').html(d3.select(this).attr('class') + '/5');
         //We re-add the class to the clicked segement
         d3.select(this).classed('selected', true);
+
+        d3.select(this).selectAll('path').style('opacity', '1')
+        tooltip.style('background', d.colors[2])
+        tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
+
+                    //We filter the class to get the number of the segment we're hovering over
+            //The regex is necessary to bypass the selected class and only get a numeric one
+            var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
+            //We replace the tooltip text with the relevant list items from the array
+            tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
+            //We use the class to highlight the relevant number in the legend
+            for(var c = 0; c < listItems.length; c++){
+              listItems[c].style.opacity = 0.2;
+            }
+            listItems[d3.select(this).attr('class').replace("selected", "") - 1].style.opacity = 1;
       })
 
       //Effects for fading in each group on load
