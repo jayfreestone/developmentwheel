@@ -376,7 +376,6 @@ document.addEventListener('DOMContentLoaded', function(){
     d3.select(this).classed('group--selected', true);
 
     //Hander for the Done Button
-
     document.querySelector('.tooltip-done').onclick = function(){
         var checkboxes = document.querySelectorAll('.tooltip-input');
         var boxTitle = document.querySelector('.tooltip h3').innerHTML;
@@ -544,10 +543,30 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   };
 
+  // Final Submission Submit Handler
+  document.querySelector('.button--submit').onclick = function(event){
+    event.preventDefault();
+    var resultPDF = new jsPDF();
+    resultPDF.text(20, 100, 'RESULTS');
 
+    for(var counter = 0; counter < results.length; counter++){
+        resultPDF.addPage();
+        resultPDF.setFontSize(16);
+        resultPDF.text(20, 20, results[counter].name);
 
-
-
+        resultPDF.setFontSize(12);
+        for(var counterTwo = 0; counterTwo < results[counter].results.length; counterTwo++){
+            var resultValue = results[counter].results[counterTwo].checked;
+            if (resultValue){
+                resultValue = '[ Yes ]';
+            } else {
+                resultValue = '[ No ]';
+            }
+            resultPDF.text(20, 20*(counterTwo +1),  resultValue + " " + results[counter].results[counterTwo].text);
+        }
+    }
+    resultPDF.save('Test.pdf');
+  };
 
 });
 
