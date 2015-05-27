@@ -61,4 +61,10 @@
 
 .tooltip-done {
  width: 100%; 
+ opacity: .5;
+}
+
+
+.tooltip-done--active {
+  opacity: 1;
 }

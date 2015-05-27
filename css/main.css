@@ -464,6 +464,10 @@ button {
 .group--selected .selected {
   opacity: 1 !important; }
 
+.group--disabled {
+  opacity: .1;
+  pointer-events: none; }
+
 .legend {
   font-size: 1em;
   display: block;
@@ -633,4 +637,8 @@ dt, dd {
   width: 90%; }
 
 .tooltip-done {
-  width: 100%; }
+  width: 100%;
+  opacity: .5; }
+
+.tooltip-done--active {
+  opacity: 1; }

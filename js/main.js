@@ -375,6 +375,20 @@ document.addEventListener('DOMContentLoaded', function(){
     // this.classList.add('group--selected');
     d3.select(this).classed('group--selected', true);
 
+    var currentGroup = d3.select(this);
+
+    var allInputs = document.querySelectorAll('.tooltip-input');
+    console.log(allInputs);
+
+    for(var os = 0; os < allInputs.length; os ++) {
+        allInputs[os].onchange = function(){
+           if (document.querySelector('.tooltip-input:checked')) {
+            document.querySelector('.tooltip-done').classList.add('tooltip-done--active');
+            document.querySelector('.tooltip-done').disabled = false;
+            } 
+        };
+    }
+
     //Hander for the Done Button
     document.querySelector('.tooltip-done').onclick = function(){
         var checkboxes = document.querySelectorAll('.tooltip-input');
@@ -395,7 +409,8 @@ document.addEventListener('DOMContentLoaded', function(){
              results: resultsTemp
          });
 
-        console.log(results);
+        currentGroup.classed('group--disabled', true);
+        document.querySelector('.tooltip').innerHTML = "<br/> Results saved! <br/><br /> Please select a new group";
     };
   })
 
@@ -457,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function(){
             //The regex is necessary to bypass the selected class and only get a numeric one
             var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
             //We replace the tooltip text with the relevant list items from the array
-            tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul><button class="tooltip-done">Done</button>');
+            tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul><button disabled class="tooltip-done">Done</button>');
             //We use the class to highlight the relevant number in the legend
             for(var c = 0; c < listItems.length; c++){
               listItems[c].style.opacity = 0.2;
@@ -528,15 +543,16 @@ document.addEventListener('DOMContentLoaded', function(){
   //The return button on the modal also hides it
   document.querySelector('.button-return').onclick = function(event){
     event.preventDefault();
-    hideModal;
+    location.reload();
+    // hideModal;
   };
 
   var hasAppeared;
-  document.querySelector('#chart').onclick = function(){
+  document.querySelector('.tooltip').onclick = function(){
     //When all segements are filled out we display the modal,
     //but only do so once. Subsequent changes will not reactivate it.
     //Instead it can be re-activated with the 'Finish' button
-    if (document.querySelectorAll('.group--selected').length === areas.length && hasAppeared !== true){
+    if (results.length === areas.length && hasAppeared !== true){
       //We set a variable so we can tell if this is the first time it has appeared
       hasAppeared = true;
       d3.select('.form-overlay').classed('visible', true)
@@ -562,11 +578,14 @@ document.addEventListener('DOMContentLoaded', function(){
             } else {
                 resultValue = '[ No ]';
             }
-            resultPDF.text(20, 20*(counterTwo +1),  resultValue + " " + results[counter].results[counterTwo].text);
+            resultPDF.text(20, 40+(20*(counterTwo +1)),  resultValue + " " + results[counter].results[counterTwo].text);
         }
     }
     resultPDF.save('Test.pdf');
   };
+
+
+
 
 });
 
