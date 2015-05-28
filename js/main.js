@@ -410,7 +410,10 @@ document.addEventListener('DOMContentLoaded', function(){
          });
 
         currentGroup.classed('group--disabled', true);
+        currentGroup.classed('group--selected', false);
         document.querySelector('.tooltip').innerHTML = "<br/> Results saved! <br/><br /> Please select a new group";
+
+
     };
   })
 
