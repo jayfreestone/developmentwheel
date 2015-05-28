@@ -305,14 +305,17 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   ];
 
+  //Where the results are stored to pass onto jsPDF
   var results = [];
 
-  // for (var q = 0; q < areas.length; q++){
-  //   results.push({
-  //      name: areas[q].name,
-  //      results: []
-  //   });
-  // }
+  //Highlights the relevant number in the legend
+  var listItems = document.querySelectorAll('.legend li');
+  var legendHighlight = function(that){
+    for(var c = 0; c < listItems.length; c++){
+      listItems[c].style.opacity = 0.2;
+    }
+    listItems[d3.select(that).attr('class').replace("selected", "") - 1].style.opacity = 1;
+  };
 
   //Makes a class-friendly name out of the area titles
   var nameToClass = function(d){return d.name.replace(/\s+/g, '-').toLowerCase()};
@@ -392,40 +395,28 @@ document.addEventListener('DOMContentLoaded', function(){
     document.querySelector('.tooltip-done').onclick = function(){
         var checkboxes = document.querySelectorAll('.tooltip-input');
         var boxTitle = document.querySelector('.tooltip h3').innerHTML;
-
-
         var resultsTemp = [];
+
+        //Create a temporary array where we store the results of the checkboxes
         for (var z=0; z < checkboxes.length; z++){
             resultsTemp.push({
                 checked: checkboxes[z].checked,
                 text: checkboxes[z].nextElementSibling.innerHTML
             });
-
         }
 
+        //Create a new entry in the Results array with the title and checkbox results
         results.push({
              name: boxTitle,
              results: resultsTemp
          });
 
+        //Once we're done, grey out the segment and re-enable the hover effect
         currentGroup.classed('group--disabled', true);
         currentGroup.classed('group--selected', false);
         document.querySelector('.tooltip').innerHTML = "<br/> Results saved! <br/><br /> Please select a new group";
-
-
     };
   })
-
-
-  var listItems = document.querySelectorAll('.legend li');
-
-  var legendHighlight = function(that){
-    for(var c = 0; c < listItems.length; c++){
-      listItems[c].style.opacity = 0.2;
-    }
-    listItems[d3.select(that).attr('class').replace("selected", "") - 1].style.opacity = 1;
-  };
-
 
   //Now we create each ring of the chart by looping over 5 times
   for(var x = 1; x < 6; x ++){
@@ -497,9 +488,6 @@ document.addEventListener('DOMContentLoaded', function(){
       .attr('opacity', 1)
   }
 
-
-
-
   //Now we generate the results form for the modal, and the invisible form that we'll submit
   var modalDL = d3.select('.form-overlay .form-overlay__modal dl');
 
@@ -527,9 +515,6 @@ document.addEventListener('DOMContentLoaded', function(){
           input.attr('id', nameToClass(areas[a]) + '-input')
         }
     }
-
-    ///New Attempt to pre-populate the tooltip
-    // tooltip.html('<div class="'+ nameToClass(areas[a]) +'"><h3>' + areas[a].name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + areas[a].tooltext + '</ul></div>');
   }
 
   //We add the 'Finish' button that will return the overlay after being dismissed
