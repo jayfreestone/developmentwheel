@@ -370,7 +370,7 @@ document.addEventListener('DOMContentLoaded', function(){
   }).on('mouseout', function(){
       d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
-    //On click we add the selected class to the grup, 
+    //On click we add the selected class to the group, 
     //letting us figure out later if there's at least one selected in each group
     // this.classList.add('group--selected');
     d3.select(this).classed('group--selected', true);
@@ -378,7 +378,6 @@ document.addEventListener('DOMContentLoaded', function(){
     var currentGroup = d3.select(this);
 
     var allInputs = document.querySelectorAll('.tooltip-input');
-    console.log(allInputs);
 
     for(var os = 0; os < allInputs.length; os ++) {
         allInputs[os].onchange = function(){
@@ -417,7 +416,16 @@ document.addEventListener('DOMContentLoaded', function(){
     };
   })
 
+
   var listItems = document.querySelectorAll('.legend li');
+
+  var legendHighlight = function(that){
+    for(var c = 0; c < listItems.length; c++){
+      listItems[c].style.opacity = 0.2;
+    }
+    listItems[d3.select(that).attr('class').replace("selected", "") - 1].style.opacity = 1;
+  };
+
 
   //Now we create each ring of the chart by looping over 5 times
   for(var x = 1; x < 6; x ++){
@@ -443,10 +451,7 @@ document.addEventListener('DOMContentLoaded', function(){
             //We replace the tooltip text with the relevant list items from the array
             tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul>');
             //We use the class to highlight the relevant number in the legend
-            for(var c = 0; c < listItems.length; c++){
-              listItems[c].style.opacity = 0.2;
-            }
-            listItems[d3.select(this).attr('class').replace("selected", "") - 1].style.opacity = 1;
+            legendHighlight(this);
         }
       })
       .on('mouseout', function(d){
@@ -471,16 +476,14 @@ document.addEventListener('DOMContentLoaded', function(){
         tooltip.style('background', d.colors[2])
         tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
 
-                    //We filter the class to get the number of the segment we're hovering over
-            //The regex is necessary to bypass the selected class and only get a numeric one
-            var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
-            //We replace the tooltip text with the relevant list items from the array
-            tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul><button disabled class="tooltip-done">Done</button>');
-            //We use the class to highlight the relevant number in the legend
-            for(var c = 0; c < listItems.length; c++){
-              listItems[c].style.opacity = 0.2;
-            }
-            listItems[d3.select(this).attr('class').replace("selected", "") - 1].style.opacity = 1;
+        //We filter the class to get the number of the segment we're hovering over
+        //The regex is necessary to bypass the selected class and only get a numeric one
+        var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
+        //We replace the tooltip text with the relevant list items from the array
+        tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul><button disabled class="tooltip-done">Done</button>');
+        //We use the class to highlight the relevant number in the legend
+        legendHighlight(this);
+
       })
 
       //Effects for fading in each group on load
