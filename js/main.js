@@ -522,20 +522,10 @@ document.addEventListener('DOMContentLoaded', function(){
       d3.select('.form-overlay').classed('visible', true)
   });
 
-  //Hides the modal popup
-  var hideModal = function(){
-    this.classList.remove('visible');
-    document.querySelector('#chart button').style.display = 'block';
-  };
-
-  //Clicking the back of the modal overlay hides it
-  document.querySelector('.form-overlay').onclick = hideModal;
-
   //The return button on the modal also hides it
   document.querySelector('.button-return').onclick = function(event){
     event.preventDefault();
     location.reload();
-    // hideModal;
   };
 
   var hasAppeared;
