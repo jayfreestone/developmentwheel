@@ -464,8 +464,15 @@ button {
 .group--selected .selected {
   opacity: 1 !important; }
 
+.group--disabled:hover {
+  cursor: not-allowed; }
+  .group--disabled:hover path {
+    fill: #E75954 !important; }
+
 .group--disabled path {
-  opacity: 0 !important; }
+  opacity: .1 !important; }
+  .group--disabled path:hover {
+    cursor: not-allowed; }
 
 .group--disabled .selected {
   opacity: 1 !important; }
@@ -596,6 +603,8 @@ dt, dd {
 
 .tooltip {
   border-radius: 5px;
+  max-height: 500px;
+  overflow: scroll;
   color: white;
   padding: 10px 30px 30px;
   background: #1AA1DF;

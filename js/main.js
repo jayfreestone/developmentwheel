@@ -55,100 +55,81 @@ document.addEventListener('DOMContentLoaded', function(){
       name: 'Client Management',
       colors: ['#71B9E9', '#3A9CDF', '#2582C4', '#1C6597', '#16527A'],
       tooltext: [
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am aware of, and uphold, the firm\'s client service values</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I aim to exceed client expectations</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I respond appropriately to client feedback</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I develop strong client relationships at an appropriate level</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I utilise the client care toolkits available and seek the assistance of the CRM and BD team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I consistently demonstrate our firm values</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am reliable and accountable for own work</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I interact with colleagues and share knowledge to deliver the best possible service/experience to the client</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I apply clients\' preferences / utilise knowledge available to better their experience with the firm</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am aware of the issues impacting upon your clients (and their industry)</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I represent the firm in line with its values at relevant client and market events</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek to create cross selling opportunities across the firm</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have involvement in a key, tier one, or major client account team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively seek and respond appropriately to client feedback</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understand the client\'s commercial and strategic objectives</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure clients receive appropriate levels of added value, from the resources made available by the firm</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I always thinking about opportunities available to clients as a result of legal and market developments</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I uphold client service values both personally and as a champion within their team </div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I deliver advice in the context of clients\' overall strategy and/or specific objectives</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I maintain client relationships outside of instruction</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I build long term client relationships </div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I analyse and intepret trends and patterns in market sectors to engage with clients</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure client preferences and client service values are consistently upheld across the team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I anticipate clients\' needs and act upon the knowledge to benefit the client</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I establish how client service values should be applied and upheld in my team, and takes responsibility for maintaining standards</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am considered internally and/or externally as Client Lead on  strategically important client account(s)</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I broaden existing client relationships.  I facilitiate development of relationships between the client and entire TE team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have a complete understanding of clients\' business at a strategic level, providing value-added commercial advice</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively participate (speaking and hosting) in events and interact with industry bodies to represent the firm and its values</div> </li>'
       ]
     },
     {
-      name: 'Collaboration',
+      name: 'Team Work',
       colors: ['#FCCDB6', '#F9AB86', '#F88A58', '#F6692F', '#DC511D'],
       tooltext: [
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek out and build a network for development, coaching and career advice</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively support and contribute to team activities, building effective relationships within the team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am developing own knowledge and skills</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I take advantage of development opportunities</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek and make use of constructive feedback from colleagues</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I work to meet the firm\'s values and expections especially around diversity and inclusion and respect for others</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I take responsibility for own actions</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I work effectively as a team member and help build relationships within the team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I learn from myself and others experiences to improve skills and knowledge</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am self critical and drive my own development needs effectively and react positively to feedback</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively help and support others to achieve team goals</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am approachable and show sensitivity to the needs of others</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I escalate responsibility for tasks or decisions appropriately</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I monitor my own progress against objectives and take appropriate action to ensure delivery of results</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I contribute to team objectives, regardless of direct personal benefit</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I develop and encourage others through support, feedback, guidance and constructive feedback</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I set high standards for performance and behaviour and act as a role model</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I share information and keep the team fully informed of internal and external developments</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I effectively manage and build relationships</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I participate in delivery of training</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I set high standards for performance and behaviour</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I direct people and tasks with authority, credibility and presence</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I delegate tasks and activities as a means of developing others</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I motivate the performance of others through recognition and praise</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I run effective team meetings and particpate effectively in team meetings</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively particiapte in the firm, encouraging collaboration among team members</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage team members and resources efficiently </div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I coordinate the contribution of others</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I support my team to win and deliver the highest quality work</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I positively influence and adapt my style to gain commitment and trust of others</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I provide opportunities, challenges and support to enable individual\'s to develop.  I coach and mentor others</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I provide timely and constructive informal feedback on performance</div> </li>'
       ]
     },
     {
@@ -156,151 +137,138 @@ document.addEventListener('DOMContentLoaded', function(){
       colors: ['#D6EAB8', '#B9DB85', '#A2CF5F', '#8BC041', '#78A538'],
       tooltext: [
         
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Managing self to meet deadlines and achieve results</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Taking ownership and responsibility for solving problems</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Identifying and analysing key issues ensuring full information is considered</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Listening well and asking good questions</li></div>' +
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Using logic and reason to influence others</li></div>' +
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Communicating clearly and concisely and with conviction in group and individual situations and in writing</li></div>' +
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Demonstrating a constructive and positive attitude</li></div>' +
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Selecting and using the appropriate business systems and IT resources to manage, monitor and review performance</li></div>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I manage myself to meet deadlines and achieve results</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I take ownership and responsibility for solving problems</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identifying and analyse key issues ensuring full information is considered</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I listen well and ask good questions</div>' +
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I use logic and reason to influence others</div>' +
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I communicate clearly and concisely and with conviction in group and individual situations and in writing</div>' +
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I demonstrate a constructive and positive attitude</div>' +
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I select and use the appropriate business systems and IT resources to manage, monitor and review performance</div>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Managing self and others to meet deadlines and achieve results</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Recognising one solution may not solve the same issue every time</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Assessing and analysing risks associated with the problem and recommended solutions</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Making timely and workable decisions</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Persuading when advocating a position or expressing an opinion or conclusion</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Being articulate, concise and logical when speaking or writing</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Responding with speed and accuracy to others in person and/or with correspondence</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Using appropriate business and IT resources to monitor and review progress</li></div>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I manage myself and others to meet deadlines and achieve results</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I recognise one solution may not solve the same issue every time</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I assess and analyse risks associated with the problem and recommended solutions</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I make timely and workable decisions</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I persuade when advocating a position or expressing an opinion or conclusion</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I am articulate, concise and logical when speaking or writing</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I respond with speed and accuracy to others in person and/or with correspondence</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I use appropriate business and IT resources to monitor and review progress</div>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Delegating work as appropriate and monitoring the progress of the work delegated</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Identifying potential problem areas before they arise</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Identifying strategies to resolve problems</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Selecting appropriate communication techniques when challenging others decisions or actions</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Expressing point of view confidently and persuasively</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Articulating written arguments tailored to audience requirements</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Producing documents in client ready format</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Handling objections skilfully by acknowledging issues and suggesting alternatives</li></div>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I delegate work as appropriate and monitor the progress of the work delegated</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify potential problem areas before they arise</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify strategies to resolve problems</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I select appropriate communication techniques when challenging others decisions or actions</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I express my point of view confidently and persuasively</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I articulate written arguments tailored to audience requirements</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I produce documents in client ready format</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I handle objections skilfully by acknowledging issues and suggesting alternatives</div>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Identifying and managing complex and often conflicting priorities to achieve results</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Identifying repeat problems through the analysis and interpretation of trends and patterns</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Acting to resolve the cause of problems</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Presenting complex concepts simply and logically</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Understanding and considering the negotating position of others</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Recognising the level of influence others have and adapting own style and strategies accordingly</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Speaking with confidence, focus, logically and persuasively</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Identifying range of methods to assess and analyse risks</li></div>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify and managing complex and often conflicting priorities to achieve results</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify repeat problems through the analysis and interpretation of trends and patterns</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I act to resolve the cause of problems</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I present complex concepts simply and logically</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I understand and consider the negotating position of others</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I recognise the level of influence others have and adapt own style and strategies accordingly</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I speak with confidence, focus, and am logical and persuasive</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify a range of methods to assess and analyse risks</div>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Encourages a culture of innovation and continuous improvement to support exceptional delivery</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Build relationships with colleagues across the business to ensure consistent client service</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Remains calm under pressure and demonstrates ability to manage conflict effectively</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Generates confidence and credibility through presence and impact</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Ensures they maintain good awareness of external market conditions and competitor intelligence</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Invests time in getting to know others at all levels in the firm and builds relationships</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Is always mindful of position as a role model for the firm\'s values and is committed to instilling them in staff</li></div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">Understands the need to take all opportunities to create a positive working environment</li></div>'
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I encourage a culture of innovation and continuous improvement to support exceptional delivery</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I build relationships with colleagues across the business to ensure consistent client service</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I remain calm under pressure and demonstrate ability to manage conflict effectively</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I generate confidence and credibility through presence and impact</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I ensure I maintain good awareness of external market conditions and competitor intelligence</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I invest time in getting to know others at all levels in the firm and builds relationships</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I am always mindful of my position as a role model for the firm\'s values and am committed to instilling them in staff</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I understand the need to take all opportunities to create a positive working environment</div>'
 
       ]
     },
     {
-      name: 'Finance Management',
+      name: 'Finance',
       colors: ['#CCCCCC', '#B2B2B2', '#999999', '#6E6E6E', '#545454'],
       tooltext: [
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I efficiently, consistently and in a timely manner, manage personal time recording</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage other relevant performance indicators as required by the firm such as recovery rates or billings</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I adopt appropriate processes to manage matters, cases and projects to time, to agreed standards and within budget</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage simple matters, cases and projects to time, to agreed standards and within budget</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understanding how my role and contribution fits into the bigger picture</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I work to achieve own targets and know how these contribute to the firm\'s profitability</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I focus on financial implications and targets of the team or practice group</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I assist in budgeting when appropriate</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understand the business plan and my role in the team in achieving it</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I keep debts under review and ensure regular and early communication with clients and supervising partner on any debts not paid within the firm\'s standard period</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I demonstrate expertise in seeing issues in financial terms</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage and supervise work within time and cost constraints</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I communicate information including cost and time deviations to partners and to clients as appropriate</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I consider budget implications when delegating work</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I drives a culture that encourages cost consciousness and profitable contribution from all</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I monitor financial information against budget and business plans</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage lock up and recovery effectively</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I balance costs and benefits in the interests of the client and firm</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage billing and collection of fees whilst maintaining good client relationships</div> </li>'
       ]
     },
     {
       name: 'Risk Management',
       colors: ['#DE9AC5', '#D570B1', '#CA4A9C', '#922C6E', '#5E1C47'],
       tooltext: [
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I adhere to basic principles of the SRA Handbook and the firm\'s policies and procedures.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I represent the firm in professional manner at all times.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I keep details of our clients, their matters and former clients and their matters confidential.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I keep details about the firm\'s business confidential.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I report any concerns regarding breach of confidentiality to my line manager.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure matter files and client deeds, records and documents are safely stored and recorded on the right Thomas Eggar system.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I comply with anti money laundering and anti bribery legislation.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I report compliance failures to the Risk Team in a timely manner.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek supervision and support from more experienced members of the team prior to giving client\'s advice.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understand and takes part in the file review processes in the firm.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I complete all compliance training as required.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I file of all emails on client related matters within correct part of our electronic filing system</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have an awareness of the firm\'s environmental objectives and encourage adherence by supporting initiatives on recycling and saving of power.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have an awareness of cyber security risk and know not to reply to unexpected emails, click on links in emails from unusual source or introduce any memory stick, CD or other item onto the firm\'s system </div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have an awareness of health and safety at work and maintain a tidy work space to prevent accidents at work.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I treat everyone I come into contact with, with respect.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I report to the Risk Team any actual / potential claims or formal complaints without delay.</div></li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I support the firm in the maintenance of the various accreditations it holds e.g. Lexcel, IIP, ISO14001, CQS etc.</div></li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure work is completed in a timely manner, within pre-agreed timescales. </div></li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have knowledge of the SRA Handbook including full compliance with the Handbook and the firm\'s policies and procedures for the work undertaken by me as an individual.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am aware of client confidentiality within the team and ensuring compliance and complying with the firm\'s security procedures relating to the retention, sharing and destruction of documents</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ask for guidance when uncertain of a procedure and am aware of the limits of one\'s authority.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I act in a professional manner at all times</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I undertake client conflict checks using the firm\'s systems and raise concerns if a potential conflict exists.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I raise areas of concern regarding risk and compliance issues arising on my own matters with supervisors in the team.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure all contact with clients is effectively documented on the matter or client file.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure consistency of service delivery to all clients ensuring no discrimination.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to effectively scope work to be undertaken for a client and document that in writing for the client.</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have knowledge of the SRA Handbook including full compliance with the firm\'s policies and procedures and am able to apply these items to the work of the team as a whole.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have an awareness of conflicts of interest and how these affect the practice and ensure new instructions or new elements of work on existing instructions are checked for conflict.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to effectively supervise others in the team on routine work undertaken by others.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I support effective knowledge management within the team for client, legal, sector and process knowledge.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I support the Risk Team in the review of matters linked to complaints or claims against the firm.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure clients are engaged in the firm\'s matter feedback programme at the conclusion of their matters.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I encourage the office to maintain high level of compliance with Health & Safety requirements including tidy work areas across the office.</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I organise training of others undertaking the same level of work on changes in the law that affect the work type to ensure self and others in the team are up-to-date.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I identify areas within the team which may require improved process or changes to deliver a more effective service to a client, enhanced risk management or improved efficiency in the delivery of work.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I generate ideas about how the team can engage with the firm\'s environmental objectives in connection with recycling and power saving.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to effectively supervise others across the Practice Group in the delivery of high quality work for clients.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I support effective knowledge management within the Practice Group for client, legal, sector and process knowledge.</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have knowledge of the SRA Handbook including full compliance with the firm\'s policies and procedures and able to apply these items to the Practice Group.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to look at risk from a strategic perspective and raise items with the Risk Team for inclusion in the risk register or for improvement in compliance related activities.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to effectively project manage complex legal work across the firm with representatives from various Practice Groups.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I Identify risk issues within the Practice Group and am able to put forward and implement suggestions for change to improve compliance.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I undertake post transaction / post matter reviews and ensure lessons learnt are shared across the firm including the Risk Team for the benefit of the firm.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I support effective knowledge management within the firm for client, legal, sector and process knowledge.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure that risk and compliance is taken into account when setting the business plan for the firm.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I lead by example in terms of compliance across the firm and sets high level of expectations from others, education others in the firm of the importance of effective risk management.</div> </li>',
       ]
     }
   ];
@@ -312,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var listItems = document.querySelectorAll('.legend li');
   var legendHighlight = function(that){
     for(var c = 0; c < listItems.length; c++){
-      listItems[c].style.opacity = 0.2;
+      listItems[c].style.opacity = 0.3;
     }
     listItems[d3.select(that).attr('class').replace("selected", "") - 1].style.opacity = 1;
   };
@@ -366,7 +334,7 @@ document.addEventListener('DOMContentLoaded', function(){
   pathGroup.on('mouseover', function(d){
     var that = this;
     if(d3.select('.group--selected').empty() && that.classList.contains('group--disabled') == false){
-        d3.selectAll('path').style('opacity', '.2')
+        d3.selectAll('path').style('opacity', '.3')
         d3.select(this).selectAll('path').style('opacity', '1')
         tooltip.style('background', d.colors[2])
         tooltip.style('box-shadow', '0 0 0 1px ' + d.colors[3])
@@ -555,22 +523,24 @@ document.addEventListener('DOMContentLoaded', function(){
   document.querySelector('.button--submit').onclick = function(event){
     event.preventDefault();
     var resultPDF = new jsPDF();
-    resultPDF.text(20, 100, 'RESULTS');
+    resultPDF.text(20, 100, 'DEVELOPMENT WHEEL RESULTS');
 
     for(var counter = 0; counter < results.length; counter++){
         resultPDF.addPage();
         resultPDF.setFontSize(16);
         resultPDF.text(20, 20, results[counter].name);
 
-        resultPDF.setFontSize(12);
+        resultPDF.setFontSize(10);
+        var counterOld;
         for(var counterTwo = 0; counterTwo < results[counter].results.length; counterTwo++){
             var resultValue = results[counter].results[counterTwo].checked;
+
             if (resultValue){
                 resultValue = '[ Yes ]';
             } else {
                 resultValue = '[ No ]';
             }
-            resultPDF.text(20, 40+(20*(counterTwo +1)),  resultValue + " " + results[counter].results[counterTwo].text);
+            resultPDF.text(20, 20+(12*(counterTwo +1)),  resultValue + " " + results[counter].results[counterTwo].text);
         }
     }
     resultPDF.save('Test.pdf');
