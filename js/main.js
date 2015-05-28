@@ -523,6 +523,9 @@ document.addEventListener('DOMContentLoaded', function(){
   document.querySelector('.button--submit').onclick = function(event){
     event.preventDefault();
     var resultPDF = new jsPDF();
+    resultPDF.setLineWidth(20);
+    resultPDF.setDrawColor(5, 70, 121);
+    resultPDF.line(0, 0, 400, 0);
     resultPDF.text(20, 100, 'DEVELOPMENT WHEEL RESULTS');
     var lines;
 
@@ -532,7 +535,8 @@ document.addEventListener('DOMContentLoaded', function(){
         resultPDF.text(20, 20, results[counter].name);
 
         resultPDF.setFontSize(10);
-        var counterOld;
+
+
         for(var counterTwo = 0; counterTwo < results[counter].results.length; counterTwo++){
 
             var resultValue = results[counter].results[counterTwo].checked;
@@ -540,7 +544,6 @@ document.addEventListener('DOMContentLoaded', function(){
             var copy = results[counter].results[counterTwo].text;
 
             lines = resultPDF.splitTextToSize(copy, 150);
-            console.log(lines);
 
             if (resultValue){
                 resultValue = '[ Yes ]';
