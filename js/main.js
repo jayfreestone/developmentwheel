@@ -364,7 +364,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
   //Hovering over a group changes the tooltip's color and content
   pathGroup.on('mouseover', function(d){
-    if(d3.select('.group--selected').empty()){
+    var that = this;
+    if(d3.select('.group--selected').empty() && that.classList.contains('group--disabled') == false){
         d3.selectAll('path').style('opacity', '.2')
         d3.select(this).selectAll('path').style('opacity', '1')
         tooltip.style('background', d.colors[2])
@@ -373,49 +374,54 @@ document.addEventListener('DOMContentLoaded', function(){
   }).on('mouseout', function(){
       d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
-    //On click we add the selected class to the group, 
-    //letting us figure out later if there's at least one selected in each group
-    // this.classList.add('group--selected');
-    d3.select(this).classed('group--selected', true);
 
-    var currentGroup = d3.select(this);
+    if (this.classList.contains('group--disabled') == false){
+      //On click we add the selected class to the group, 
+      //letting us figure out later if there's at least one selected in each group
+      d3.select('.group--selected').classed('group--selected', false);
+      d3.select(this).classed('group--selected', true);
 
-    var allInputs = document.querySelectorAll('.tooltip-input');
+      var currentGroup = d3.select(this);
+      var allInputs = document.querySelectorAll('.tooltip-input');
 
-    for(var os = 0; os < allInputs.length; os ++) {
+      for(var os = 0; os < allInputs.length; os ++) {
         allInputs[os].onchange = function(){
-           if (document.querySelector('.tooltip-input:checked')) {
+          if (document.querySelector('.tooltip-input:checked')) {
             document.querySelector('.tooltip-done').classList.add('tooltip-done--active');
             document.querySelector('.tooltip-done').disabled = false;
-            } 
+          } 
         };
-    }
+      }
 
-    //Hander for the Done Button
-    document.querySelector('.tooltip-done').onclick = function(){
+      //Hander for the Done Button
+      document.querySelector('.tooltip-done').onclick = function(){
         var checkboxes = document.querySelectorAll('.tooltip-input');
         var boxTitle = document.querySelector('.tooltip h3').innerHTML;
         var resultsTemp = [];
 
         //Create a temporary array where we store the results of the checkboxes
         for (var z=0; z < checkboxes.length; z++){
-            resultsTemp.push({
-                checked: checkboxes[z].checked,
-                text: checkboxes[z].nextElementSibling.innerHTML
-            });
+          resultsTemp.push({
+            checked: checkboxes[z].checked,
+            text: checkboxes[z].nextElementSibling.innerHTML
+          });
         }
 
         //Create a new entry in the Results array with the title and checkbox results
         results.push({
-             name: boxTitle,
-             results: resultsTemp
-         });
+          name: boxTitle,
+          results: resultsTemp
+        });
 
         //Once we're done, grey out the segment and re-enable the hover effect
         currentGroup.classed('group--disabled', true);
         currentGroup.classed('group--selected', false);
+
         document.querySelector('.tooltip').innerHTML = "<br/> Results saved! <br/><br /> Please select a new group";
-    };
+      };
+    }
+
+
   })
 
   //Now we create each ring of the chart by looping over 5 times
@@ -435,7 +441,8 @@ document.addEventListener('DOMContentLoaded', function(){
         return  'translate(300, 300) ' + 'rotate(' + (i * (360/areas.length)) + ') ';
       })
       .on('mouseover', function(d){
-        if(d3.select('.group--selected').empty()){
+        var parentGroup = this.parentNode;
+        if(d3.select('.group--selected').empty() && parentGroup.classList.contains('group--disabled') == false){
             //We filter the class to get the number of the segment we're hovering over
             //The regex is necessary to bypass the selected class and only get a numeric one
             var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
@@ -453,6 +460,8 @@ document.addEventListener('DOMContentLoaded', function(){
         }
       })
       .on('click', function(d){
+        if (this.parentNode.classList.contains('group--disabled') == false){
+
         var name = '.' + nameToClass(d) + ' .selected';
         //We brute force it and remove all selected items from the group
         pathGroup.selectAll(name).classed('selected', false)
@@ -474,6 +483,8 @@ document.addEventListener('DOMContentLoaded', function(){
         tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul><button disabled class="tooltip-done">Done</button>');
         //We use the class to highlight the relevant number in the legend
         legendHighlight(this);
+
+        }
 
       })
 

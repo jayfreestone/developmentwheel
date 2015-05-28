@@ -464,9 +464,11 @@ button {
 .group--selected .selected {
   opacity: 1 !important; }
 
-.group--disabled {
-  opacity: .1;
-  pointer-events: none; }
+.group--disabled path {
+  opacity: 0 !important; }
+
+.group--disabled .selected {
+  opacity: 1 !important; }
 
 .legend {
   font-size: 1em;

@@ -27,7 +27,13 @@
   }
 }
 
+
 .group--disabled {
-  opacity: .1;
-  pointer-events: none;
+  path {
+    opacity: 0 !important;
+  }
+
+  .selected {
+    opacity: 1 !important;
+  }
 }
