@@ -5,50 +5,44 @@ document.addEventListener('DOMContentLoaded', function(){
       name: 'Technology',
       colors: ['#b5d5fd', '#83b9fc', '#529dfa', '#2081f9', '#065fd0'],
       tooltext: [
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Undertake more detailed research for senior colleagues to support client requests and projects.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Collect information from relevant research sources.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to identify and analyse facts and issues.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft and prepare letters and simple documents, typically based on established precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">General checking of client and internal documentation for completeness.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Regularly discuss topics relevant to the team and issues with colleagues and supervisor to develop understanding.</div> </li>'+
+        '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Know how to locate and use complex documents and precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Assist with the creation of precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Stay aware and abreast of relevant issues through reading newsletters and attending seminars.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Undertake research and produce clear, accurate findings tailored to specific issues.</div> </li>'+
+        '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Stay aware of current matters affecting own team and specialism.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Demonstrate a good knowledge / understanding of own team and a working knowledge of other practices.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Demonstrate a more detailed knowledge of own specialist area and start to be identified as a specialist in area(s) of specialisation.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to apply precedents to specific situations / requests, develop creative solutions to areas of interest.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Be able to select appropriate precedents for use in communications.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft and amend reasonably complex documents seeking input from senior colleagues on more technical matters.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Have excellent legal and business research skills.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Regularly contribute to the development of know-how materials.</div> </li>'+
+        '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Keep technical expertise up to date through attendance at appropriate seminars and conferences.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to recognise issues that require research, allocating resources and directing as required.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Recognise where changes in law or practice may require amendments to precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Demonstrate a comprehensive working knowledge of specialist area and be recognised expert in own field.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Possess a developed knowledge of other practice areas.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft complex documentation, possibly without precedent, identifying and analysing all legal and commercial issues.</div> </li>'+
+        '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>',
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Lorem ipsum dolor sit amet, consectetur adipisicing</div> </li>'
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Valued as a trusted business advisor.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Use and manage resources to research issues relevant to the team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Share knowledge at all levels internally and possibly externally through delivery at seminars.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft and communicate on most complex issues.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Possess a good knowledge of the wider business</div> </li>'+
+        '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>'
       ]
     },
     {
@@ -522,47 +516,54 @@ document.addEventListener('DOMContentLoaded', function(){
   // Final Submission Submit Handler
   document.querySelector('.button--submit').onclick = function(event){
     event.preventDefault();
-    var resultPDF = new jsPDF();
-    resultPDF.setLineWidth(20);
-    resultPDF.setDrawColor(5, 70, 121);
-    resultPDF.line(0, 0, 400, 0);
-    resultPDF.text(20, 100, 'DEVELOPMENT WHEEL RESULTS');
-    var lines;
+    var docDefinition = {
+      content: [
+      { 
+        text: 'Development Wheel Results\n\n', 
+        style: 'header' 
+      } ],
+    };
 
     for(var counter = 0; counter < results.length; counter++){
-        resultPDF.addPage();
-        resultPDF.setFontSize(16);
-        resultPDF.text(20, 20, results[counter].name);
+        docDefinition.content.push({
+          text: results[counter].name + "\n\n", 
+          style:'subheader'
+        });
 
-        resultPDF.setFontSize(10);
-
-
+        var ul = [];
         for(var counterTwo = 0; counterTwo < results[counter].results.length; counterTwo++){
-
             var resultValue = results[counter].results[counterTwo].checked;
-
             var copy = results[counter].results[counterTwo].text;
 
-            lines = resultPDF.splitTextToSize(copy, 150);
-
             if (resultValue){
-                resultValue = '[ Yes ]';
+                resultValue = '(Yes)';
             } else {
-                resultValue = '[ No ]';
+                resultValue = '(No)';
             }
 
-            var content;
-
-            resultPDF.text(20, 20+(12*(counterTwo +1)),  resultValue + " " + lines[0]);
-
-            if (lines.length > 1){
-              for(var e = 1; e < lines.length; e++){
-                resultPDF.text(20, (e*25)+(12*(counterTwo +1)),  "" + lines[e]);
-              }
-            }
+           ul.push(resultValue + " " + copy);
         }
+
+        docDefinition.content.push({ul: ul}, "\n\n");
     }
-    resultPDF.save('Test.pdf');
+
+    docDefinition.styles = {
+      header: {
+        fontSize: 18,
+        bold: true
+      },     
+      subheader: {
+        fontSize: 14,
+        bold: true
+      },
+      yes: {
+        fontSize: 14,
+        bold: true,
+        color: 'red'
+      }
+    };
+
+    pdfMake.createPdf(docDefinition).open();
   };
 
 

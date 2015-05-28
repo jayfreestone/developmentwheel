@@ -429,7 +429,37 @@ ul {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-top: 2em; }
+  margin-top: 2em;
+  float: left;
+  width: 100%; }
+
+.main-content {
+  width: 80%;
+  float: left; }
+
+.logodevelop {
+  width: 20%;
+  float: right; }
+
+main {
+  float: left; }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
 
 button {
   border: none;
@@ -613,6 +643,8 @@ dt, dd {
   border: 1.5px solid rgba(255, 255, 255, 0.2);
   -webkit-transition: .2s all;
           transition: .2s all; }
+  .tooltip p {
+    display: inline-block; }
   .tooltip h3 {
     font-weight: normal;
     margin-bottom: 0; }
