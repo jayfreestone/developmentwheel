@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function(){
         //The regex is necessary to bypass the selected class and only get a numeric one
         var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
         //We replace the tooltip text with the relevant list items from the array
-        tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<ul>' + d.tooltext[currentClass -1] + '</ul><button disabled class="tooltip-done">Done</button>');
+        tooltip.html('<h3>' + d.name + ' / Band '+ currentClass +'</h3>' + '<hr />' + '<p><em>Tick at least one box then click \'Done\'.</em></p><ul>' + d.tooltext[currentClass -1] + '</ul><button disabled class="tooltip-done">Done</button>');
         //We use the class to highlight the relevant number in the legend
         legendHighlight(this);
 
@@ -524,6 +524,7 @@ document.addEventListener('DOMContentLoaded', function(){
     event.preventDefault();
     var resultPDF = new jsPDF();
     resultPDF.text(20, 100, 'DEVELOPMENT WHEEL RESULTS');
+    var lines;
 
     for(var counter = 0; counter < results.length; counter++){
         resultPDF.addPage();
@@ -533,14 +534,29 @@ document.addEventListener('DOMContentLoaded', function(){
         resultPDF.setFontSize(10);
         var counterOld;
         for(var counterTwo = 0; counterTwo < results[counter].results.length; counterTwo++){
+
             var resultValue = results[counter].results[counterTwo].checked;
+
+            var copy = results[counter].results[counterTwo].text;
+
+            lines = resultPDF.splitTextToSize(copy, 150);
+            console.log(lines);
 
             if (resultValue){
                 resultValue = '[ Yes ]';
             } else {
                 resultValue = '[ No ]';
             }
-            resultPDF.text(20, 20+(12*(counterTwo +1)),  resultValue + " " + results[counter].results[counterTwo].text);
+
+            var content;
+
+            resultPDF.text(20, 20+(12*(counterTwo +1)),  resultValue + " " + lines[0]);
+
+            if (lines.length > 1){
+              for(var e = 1; e < lines.length; e++){
+                resultPDF.text(20, (e*25)+(12*(counterTwo +1)),  "" + lines[e]);
+              }
+            }
         }
     }
     resultPDF.save('Test.pdf');
