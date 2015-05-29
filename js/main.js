@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   var areas = [
     {
-      name: 'Technology',
+      name: 'Technical',
       colors: ['#b5d5fd', '#83b9fc', '#529dfa', '#2081f9', '#065fd0'],
       tooltext: [
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Undertake more detailed research for senior colleagues to support client requests and projects.</div> </li>'+
