@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function(){
   //Hovering over a group changes the tooltip's color and content
   pathGroup.on('mouseover', function(d){
     var that = this;
-    if(d3.select('.group--selected').empty() && that.classList.contains('group--disabled') == false){
+    if(d3.select('.group--selected').empty() &&  d3.select(that).classed('group--disabled') == false){
         d3.selectAll('path').style('opacity', '.3')
         d3.select(this).selectAll('path').style('opacity', '1')
         tooltip.style('background', d.colors[2])
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function(){
       d3.selectAll('path').style('opacity', '1')
   }).on('click', function(){
 
-    if (this.classList.contains('group--disabled') == false){
+    if (d3.select(this).classed('group--disabled') == false){
       //On click we add the selected class to the group, 
       //letting us figure out later if there's at least one selected in each group
       d3.select('.group--selected').classed('group--selected', false);
@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function(){
       })
       .on('mouseover', function(d){
         var parentGroup = this.parentNode;
-        if(d3.select('.group--selected').empty() && parentGroup.classList.contains('group--disabled') == false){
+        if(d3.select('.group--selected').empty() && d3.select(parentGroup).classed('group--disabled') == false){
             //We filter the class to get the number of the segment we're hovering over
             //The regex is necessary to bypass the selected class and only get a numeric one
             var currentClass = d3.select(this).attr('class').replace(/[^0-9]/g, '');
@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
       })
       .on('click', function(d){
-        if (this.parentNode.classList.contains('group--disabled') == false){
+        if ( d3.select(this.parentNode).classed('group--disabled') == false){
 
         var name = '.' + nameToClass(d) + ' .selected';
         //We brute force it and remove all selected items from the group
