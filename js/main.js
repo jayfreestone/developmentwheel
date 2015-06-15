@@ -13,35 +13,35 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Regularly discuss topics relevant to the team and issues with colleagues and supervisor to develop understanding.</div> </li>'+
         '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Know how to locate and use complex documents and precedents.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Assist with the creation of precedents.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Stay aware and abreast of relevant issues through reading newsletters and attending seminars.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Undertake research and produce clear, accurate findings tailored to specific issues.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I know how to locate and use complex documents and precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I assist with the creation of precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I keep aware and abreast of relevant issues through reading newsletters and attending seminars.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I undertake research and produce clear, accurate findings tailored to specific issues.</div> </li>'+
         '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Stay aware of current matters affecting own team and specialism.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Demonstrate a good knowledge / understanding of own team and a working knowledge of other practices.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Demonstrate a more detailed knowledge of own specialist area and start to be identified as a specialist in area(s) of specialisation.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to apply precedents to specific situations / requests, develop creative solutions to areas of interest.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Be able to select appropriate precedents for use in communications.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft and amend reasonably complex documents seeking input from senior colleagues on more technical matters.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Have excellent legal and business research skills.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Regularly contribute to the development of know-how materials.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I stay aware of current matters affecting own team and specialism.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I demonstrate a good knowledge / understanding of my own team and a working knowledge of other practices.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I demonstrate a more detailed knowledge of own specialist area and start to be identified as a specialist in area(s) of specialisation.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to apply precedents to specific situations / requests, develop creative solutions to areas of interest.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to select appropriate precedents for use in communications.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to draft and amend reasonably complex documents seeking input from senior colleagues on more technical matters.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have excellent legal and business research skills.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I regularly contribute to the development of know-how materials.</div> </li>'+
         '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Keep technical expertise up to date through attendance at appropriate seminars and conferences.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to recognise issues that require research, allocating resources and directing as required.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Recognise where changes in law or practice may require amendments to precedents.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Demonstrate a comprehensive working knowledge of specialist area and be recognised expert in own field.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Possess a developed knowledge of other practice areas.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft complex documentation, possibly without precedent, identifying and analysing all legal and commercial issues.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I keep my technical expertise up to date through attendance at appropriate seminars and conferences.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to recognise issues that require research, allocating resources and directing as required.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I recognise where changes in law or practice may require amendments to precedents.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I demonstrate a comprehensive working knowledge of my specialist area and am a recognised expert in my own field.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I possess a developed knowledge of other practice areas.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to draft complex documentation, possibly without precedent, identifying and analysing all legal and commercial issues.</div> </li>'+
         '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Valued as a trusted business advisor.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Use and manage resources to research issues relevant to the team</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Share knowledge at all levels internally and possibly externally through delivery at seminars.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Able to draft and communicate on most complex issues.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">Possess a good knowledge of the wider business</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am valued as a trusted business advisor.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I use and manage resources to research issues relevant to the team</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I share knowledge at all levels internally and possibly externally through delivery at seminars.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am able to draft and communicate on most complex issues.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I possess a good knowledge of the wider business</div> </li>'+
         '<p><em>For more specific role accountabilities please refer to your individual job description</em></p>'
       ]
     },
@@ -56,10 +56,10 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I utilise the client care toolkits available and seek the assistance of the CRM and BD team</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I consistently demonstrate our firm values</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am reliable and accountable for own work</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am reliable and accountable for my own work</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I interact with colleagues and share knowledge to deliver the best possible service/experience to the client</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I apply clients\' preferences / utilise knowledge available to better their experience with the firm</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am aware of the issues impacting upon your clients (and their industry)</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am aware of the issues impacting upon clients (and their industry)</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I represent the firm in line with its values at relevant client and market events</div> </li>',
 
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek to create cross selling opportunities across the firm</div> </li>'+
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively seek and respond appropriately to client feedback</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understand the client\'s commercial and strategic objectives</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure clients receive appropriate levels of added value, from the resources made available by the firm</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I always thinking about opportunities available to clients as a result of legal and market developments</div> </li>',
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I always think about opportunities available to clients as a result of legal and market developments</div> </li>',
 
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I uphold client service values both personally and as a champion within their team </div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I deliver advice in the context of clients\' overall strategy and/or specific objectives</div> </li>'+
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I ensure client preferences and client service values are consistently upheld across the team</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I anticipate clients\' needs and act upon the knowledge to benefit the client</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I establish how client service values should be applied and upheld in my team, and takes responsibility for maintaining standards</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I establish how client service values should be applied and upheld in my team, and take responsibility for maintaining standards</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am considered internally and/or externally as Client Lead on  strategically important client account(s)</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I broaden existing client relationships.  I facilitiate development of relationships between the client and entire TE team</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have a complete understanding of clients\' business at a strategic level, providing value-added commercial advice</div> </li>'+
@@ -95,9 +95,9 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek and make use of constructive feedback from colleagues</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I work to meet the firm\'s values and expections especially around diversity and inclusion and respect for others</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I take responsibility for own actions</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I take responsibility for my own actions</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I work effectively as a team member and help build relationships within the team</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I learn from myself and others experiences to improve skills and knowledge</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I learn from myself, and others experiences, to improve skills and knowledge</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am self critical and drive my own development needs effectively and react positively to feedback</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I actively help and support others to achieve team goals</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I am approachable and show sensitivity to the needs of others</div> </li>'+
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function(){
         
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I manage myself to meet deadlines and achieve results</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I take ownership and responsibility for solving problems</div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identifying and analyse key issues ensuring full information is considered</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify and analyse key issues ensuring full information is considered</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I listen well and ask good questions</div>' +
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I use logic and reason to influence others</div>' +
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I communicate clearly and concisely and with conviction in group and individual situations and in writing</div>' +
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I manage myself and others to meet deadlines and achieve results</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I recognise one solution may not solve the same issue every time</div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I assess and analyse risks associated with the problem and recommended solutions</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I assess and analyse risks associated with the problem and recommend solutions</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I make timely and workable decisions</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I persuade when advocating a position or expressing an opinion or conclusion</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I am articulate, concise and logical when speaking or writing</div>'+
@@ -152,13 +152,13 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I delegate work as appropriate and monitor the progress of the work delegated</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify potential problem areas before they arise</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify strategies to resolve problems</div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I select appropriate communication techniques when challenging others decisions or actions</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I select appropriate communication techniques when challenging the decisions or actions of others</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I express my point of view confidently and persuasively</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I articulate written arguments tailored to audience requirements</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I produce documents in client ready format</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I handle objections skilfully by acknowledging issues and suggesting alternatives</div>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify and managing complex and often conflicting priorities to achieve results</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify and manage complex and often conflicting priorities to achieve results</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I identify repeat problems through the analysis and interpretation of trends and patterns</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I act to resolve the cause of problems</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I present complex concepts simply and logically</div>'+
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I remain calm under pressure and demonstrate ability to manage conflict effectively</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I generate confidence and credibility through presence and impact</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I ensure I maintain good awareness of external market conditions and competitor intelligence</div>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I invest time in getting to know others at all levels in the firm and builds relationships</div>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I invest time in getting to know others at all levels in the firm and build relationships</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I am always mindful of my position as a role model for the firm\'s values and am committed to instilling them in staff</div>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""><div class="listitem">I understand the need to take all opportunities to create a positive working environment</div>'
 
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I communicate information including cost and time deviations to partners and to clients as appropriate</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I consider budget implications when delegating work</div> </li>',
 
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I drives a culture that encourages cost consciousness and profitable contribution from all</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I drive a culture that encourages cost consciousness and profitable contribution from all</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I monitor financial information against budget and business plans</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I manage lock up and recovery effectively</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I balance costs and benefits in the interests of the client and firm</div> </li>'+
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function(){
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I comply with anti money laundering and anti bribery legislation.</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I report compliance failures to the Risk Team in a timely manner.</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I seek supervision and support from more experienced members of the team prior to giving client\'s advice.</div> </li>'+
-        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understand and takes part in the file review processes in the firm.</div> </li>'+
+        '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I understand and take part in the file review processes in the firm.</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I complete all compliance training as required.</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I file of all emails on client related matters within correct part of our electronic filing system</div> </li>'+
         '<li><input class="tooltip-input" type="checkbox" name="" value=""> <div class="listitem">I have an awareness of the firm\'s environmental objectives and encourage adherence by supporting initiatives on recycling and saving of power.</div> </li>'+
