@@ -1,4 +1,4 @@
-# Thomas Eggar Development Wheel
+# Development Wheel
 
 Workers rate their proficiency between 1 (poor) to 5 (excellent) in various areas:
 
